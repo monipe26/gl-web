@@ -1,0 +1,287 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>Girls Love Play - Series GL Asiáticas en Español</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Girls Love Play - Tu espacio GL favorito en español. Series GL tailandesas, coreanas, japonesas y más. Noticias, OSTs y comunidad GL." />
+  <meta name="keywords" content="series GL, girls love, drama tailandés GL, series lésbicas asiáticas, GL español, GL tailandés, GL coreano" />
+  <meta name="author" content="Girls Love Play" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph para redes sociales -->
+  <meta property="og:title" content="Girls Love Play - Series GL Asiáticas en Español" />
+  <meta property="og:description" content="Tu espacio GL favorito en español. Series, noticias, OSTs y comunidad GL de toda Asia." />
+  <meta property="og:image" content="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Girls Love Play - Series GL Asiáticas en Español" />
+  <meta name="twitter:description" content="Tu espacio GL favorito en español. Series, noticias, OSTs y comunidad GL de toda Asia." />
+  <meta name="twitter:image" content="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+ 
+</head>
+  <body>
+    <!-- ANCLA INICIO -->
+    <div id="inicio"></div>
+
+    <header class="header">
+      <!-- BOTÓN HAMBURGUESA -->
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+      <!-- LOGO -->
+      <div class="logo-container">
+        <img
+          src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+          class="logo"
+        />
+      </div>
+
+      <!-- MENÚ -->
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#series">Series GL</a>
+        <a href="#noticias">Noticias GL</a>
+        <a href="#shipsgl">💕 Ships GL</a>
+        <a href="#microficcion">Shorts GL</a>
+        <a href="#ostsgl">OSTs GL</a>
+        <a href="#comunidadgl">Comunidad GL</a>
+      </nav>
+
+      <!-- BUSCADOR -->
+      <div class="search-box">
+        <input
+          type="text"
+          id="buscador"
+          placeholder="Buscar..."
+          onkeyup="buscar()"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+        />
+        <button onclick="limpiar()">✕</button>
+      </div>
+    </header>
+
+    <!-- HERO VIDEO -->
+    <div class="hero">
+      <div id="tiktok-container"></div>
+      <div id="shorts-container"></div>
+      <div id="player"></div>
+    </div>
+
+    <div class="player-controls">
+      <button onclick="prevVideo()">⏮ Episodio anterior</button>
+      <span id="episodio-info">Episodio 1</span>
+      <button onclick="nextVideo()">Episodio siguiente ⏭</button>
+    </div>
+
+    <!-- SERIES -->
+    <div id="series" class="section">
+      <h2>📺 Series GL</h2>
+      <p class="subtitulo">Las mejores series GL</p>
+      <div id="series-container" class="row"></div>
+      <div class="pagination-wrapper">
+        <div id="pagination-series" class="pagination"></div>
+      </div>
+    </div>
+
+    <!-- NOTICIAS GL -->
+    <section class="section" id="noticias">
+      <h2>📰 Noticias GL</h2>
+      <p class="subtitulo">Estrenos, fechas y novedades</p>
+      <div id="noticias-container"></div>
+      <div class="pagination-wrapper">
+        <div class="pagination" id="pagination-noticias"></div>
+      </div>
+    </section>
+
+    <!-- 💕 SHIPS GL -->
+<section class="section" id="shipsgl">
+  <h2>💕 Ships GL</h2>
+  <p class="subtitulo">Las parejas que nos robaron el corazón</p>
+  <div id="ships-container"></div>
+  <div class="pagination-wrapper">
+    <div class="pagination" id="pagination-ships"></div>
+  </div>
+</section>
+
+    <!-- SHORTS GL -->
+    <div id="microficcion" class="section">
+      <h2>🎬 Shorts GL</h2>
+      <p class="subtitulo">Contenido corto, emociones grandes</p>
+      <div id="microficcion-container" class="row"></div>
+      <div class="pagination-wrapper">
+        <div id="pagination-microficcion" class="pagination"></div>
+      </div>
+    </div>
+
+    <!-- OSTs GL -->
+    <div id="ostsgl" class="section">
+      <h2>🎵 OSTs GL</h2>
+      <p class="subtitulo">Música y bandas sonoras</p>
+      <div id="osts-container"></div>
+      <div class="pagination-wrapper">
+        <div id="pagination-osts" class="pagination"></div>
+      </div>
+    </div>
+
+    <!-- COMUNIDAD GL -->
+    <div id="comunidadgl" class="section">
+      <h2>💬 COMUNIDAD GL</h2>
+      <p class="subtitulo">Youtubers, Rankings & Recomendaciones</p>
+      <div id="comunidad-container"></div>
+      <div class="pagination-wrapper">
+        <div id="pagination-comunidad" class="pagination"></div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- LOGO / MARCA -->
+        <div class="footer-brand">
+          <img
+            src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+            alt="logo"
+          />
+          <p>Tu espacio GL favorito 💖</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-links">
+          <h4>Explorar</h4>
+          <a href="#inicio">Inicio</a>
+          <a href="#series">Series GL</a>
+          <a href="#noticias">Noticias GL</a>
+          <a href="#shipsgl">💕 Ships GL</a>
+          <a href="#microficcion">Shorts GL</a>
+          <a href="#ostsgl">OSTs GL</a>
+          <a href="#comunidadgl">Comunidad GL</a>
+          <a href="sobre-nosotras.html">Sobre Nosotras 💖</a>
+        </div>
+
+        <!-- LEGAL -->
+        <div class="footer-legal">
+          <h4>Legal</h4>
+          <p>
+            Este sitio no almacena videos ni archivos propios. Todo el contenido
+            proviene de fuentes externas.
+          </p>
+          <p>Los derechos pertenecen a sus respectivos autores.</p>
+          <a href="avisolegal.html" class="footer-links-item">Aviso Legal</a>
+          <a href="privacidad.html" class="footer-links-item"
+            >Politica de Privacidad</a
+          >
+          <a href="cookies.html" class="footer-links-item"
+            >Politica de Cookies</a
+          >
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>Email: info.girlsloveplay@gmail.com</p>
+          <a href="#" class="donate-btn">💖 Apoyar proyecto</a>
+          <div class="footer-socials">
+            <a href="#"
+              ><img
+                src="https://i.postimg.cc/yNCH6MKJ/facebook.png"
+                alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://i.postimg.cc/NFKs2Rz5/instagram.png"
+                alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://i.postimg.cc/X7yNVcF6/youtube.png"
+                alt="Youtube"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Girls Love - Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <script src="/script.js" defer></script>
+
+    <!-- MODAL NOTICIAS -->
+    <div class="modal-overlay" id="modal-noticias" onclick="cerrarModal(event)">
+      <div class="modal-box">
+        <button class="modal-cerrar" onclick="cerrarModal()">✕</button>
+        <img class="modal-img" id="modal-img" src="" alt="" />
+        <p class="modal-fecha" id="modal-fecha"></p>
+        <p class="modal-titulo" id="modal-titulo"></p>
+        <p class="modal-texto" id="modal-texto"></p>
+        <div id="modal-video"></div>
+        <button
+          class="modal-subir"
+          onclick="document.querySelector('.modal-box').scrollTop=0"
+        >
+          ⬆
+        </button>
+      </div>
+    </div>
+
+    <button
+      onclick="window.scrollTo({top:0, behavior:'smooth'})"
+      id="btn-arriba"
+    >
+      ⬆
+    </button>
+
+    <!-- MODAL SHIPS GL -->
+<div class="modal-overlay" id="modal-ships" onclick="cerrarModalShip(event)">
+  <div class="modal-box">
+    <button class="modal-cerrar" onclick="cerrarModalShip()">✕</button>
+    <img class="modal-img" id="ship-modal-img" src="" alt="" />
+    <p class="modal-fecha" id="ship-modal-ship"></p>
+    <p class="modal-titulo" id="ship-modal-nombres"></p>
+    <div id="ship-modal-body"></div>
+    <button class="modal-subir" onclick="document.querySelector('#modal-ships .modal-box').scrollTop=0">⬆</button>
+  </div>
+</div>
+ 
+
+    <!-- MODAL LEGAL -->
+    <div
+      class="modal-overlay"
+      id="modal-legal"
+      onclick="cerrarModalLegal(event)"
+    >
+      <div class="modal-box">
+        <button
+          class="modal-cerrar"
+          onclick="document.getElementById('modal-legal').classList.remove('active')"
+        >
+          ✕
+        </button>
+        <p class="modal-fecha">Girls Love Play</p>
+        <p class="modal-titulo">Aviso Legal</p>
+        <p class="modal-texto" style="text-align: left">
+          Este sitio no almacena, aloja ni distribuye ningún archivo de video o
+          audio en sus servidores. Todo el contenido proviene de los canales
+          oficiales de sus productoras en YouTube, mediante sus sistemas
+          oficiales de inserción (embed). Los derechos de autor pertenecen
+          exclusivamente a sus respectivos creadores y/o titulares. Este sitio
+          no reclama propiedad sobre ninguno de dichos contenidos.
+          <br />
+          Este sitio tiene fines exclusivamente informativos y de
+          entretenimiento, sin fines de lucro. Si sos titular de algún contenido
+          y considerás que vulnera tus derechos, contactanos a
+          info.girlsloveplay@gmail.com y lo revisaremos a la brevedad.
+          <br />
+          Este sitio opera bajo la legislación de la República Argentina,
+          incluyendo la Ley 11.723 de Propiedad Intelectual.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

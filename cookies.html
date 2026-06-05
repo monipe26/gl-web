@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Politica de Cookies - Girls Love Play</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <div class="logo-container">
+        <img
+          src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+          class="logo"
+        />
+      </div>
+      <nav class="nav">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#series">Series GL</a>
+        <a href="index.html#noticias">Noticias GL</a>
+        <a href="index.html#microficcion">Shorts GL</a>
+        <a href="index.html#ostsgl">OSTs GL</a>
+        <a href="index.html#comunidadgl">Comunidad GL</a>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="Buscar..." disabled />
+        <button>✕</button>
+      </div>
+    </header>
+
+    <div style="max-width: 800px; margin: 40px auto; padding: 20px">
+      <h1 style="color: #ff4fd8; font-size: 28px; margin-bottom: 30px">
+        Politica de Cookies
+      </h1>
+
+      <div
+        style="
+          background: rgba(20, 15, 50, 0.9);
+          border-radius: 16px;
+          padding: 30px;
+          border: 1px solid rgba(255, 79, 216, 0.3);
+          line-height: 1.9;
+          color: #ccc;
+          font-size: 14px;
+        "
+      >
+        <h3 style="color: #fff; margin-top: 0">1. Que son las cookies</h3>
+        <p>
+          Las cookies son pequeños archivos de texto que los sitios web guardan
+          en tu dispositivo cuando los visitas. Sirven para recordar tus
+          preferencias y mejorar tu experiencia de navegacion.
+        </p>
+
+        <h3 style="color: #fff">2. Cookies que usamos</h3>
+        <p>Girls Love Play utiliza los siguientes tipos de cookies:</p>
+        <p>
+          <strong style="color: #fff">Cookies tecnicas:</strong> necesarias para
+          el funcionamiento basico del sitio.
+        </p>
+        <p>
+          <strong style="color: #fff">Cookies de YouTube:</strong> al reproducir
+          videos embebidos de YouTube, esta plataforma puede instalar sus
+          propias cookies segun su politica de privacidad.
+        </p>
+        <p>
+          <strong style="color: #fff">Cookies de publicidad:</strong> si el
+          sitio utiliza Google AdSense, Google puede usar cookies para mostrar
+          anuncios relevantes segun tus intereses.
+        </p>
+        <p>
+          <strong style="color: #fff">Cookies analiticas:</strong> usamos Google
+          Analytics para entender como los usuarios navegan el sitio. Estos
+          datos son anonimos y se usan solo para mejorar el contenido.
+        </p>
+
+        <h3 style="color: #fff">3. Como desactivar las cookies</h3>
+        <p>
+          Podes desactivar las cookies desde la configuracion de tu navegador.
+          Ten en cuenta que desactivarlas puede afectar el funcionamiento de
+          algunas partes del sitio.
+        </p>
+
+        <h3 style="color: #fff">4. Cookies de terceros</h3>
+        <p>
+          No controlamos las cookies instaladas por servicios externos como
+          YouTube o Google. Para mas informacion consulta sus politicas:
+        </p>
+        <p>
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            style="color: #ff4fd8"
+            >Politica de privacidad de Google</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.youtube.com/t/terms"
+            target="_blank"
+            style="color: #ff4fd8"
+            >Terminos de servicio de YouTube</a
+          >
+        </p>
+
+        <h3 style="color: #fff">5. Contacto</h3>
+        <p>
+          Para consultas sobre el uso de cookies podes escribirnos a
+          <a href="mailto:info.girlsloveplay@gmail.com" style="color: #ff4fd8"
+            >info.girlsloveplay@gmail.com</a
+          >
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px">
+        <a
+          href="index.html"
+          style="
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #ff4fd8, #8f5cff);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+          "
+          >← Volver al inicio</a
+        >
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>© 2026 Girls Love Play - Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <button
+      onclick="window.scrollTo({top:0, behavior:'smooth'})"
+      id="btn-arriba"
+    >
+      ⬆
+    </button>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav").classList.toggle("active");
+      }
+      document
+        .querySelectorAll(".nav a")
+        .forEach((link) =>
+          link.addEventListener("click", () =>
+            document.querySelector(".nav").classList.remove("active")
+          )
+        );
+    </script>
+  </body>
+</html>

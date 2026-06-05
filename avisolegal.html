@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aviso Legal - Girls Love Play</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <div class="logo-container">
+        <img
+          src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+          class="logo"
+        />
+      </div>
+      <nav class="nav">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#series">Series GL</a>
+        <a href="index.html#noticias">Noticias GL</a>
+        <a href="index.html#microficcion">Shorts GL</a>
+        <a href="index.html#ostsgl">OSTs GL</a>
+        <a href="index.html#comunidadgl">Comunidad GL</a>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="Buscar..." disabled />
+        <button>✕</button>
+      </div>
+    </header>
+
+    <div style="max-width: 800px; margin: 40px auto; padding: 20px">
+      <h1 style="color: #ff4fd8; font-size: 28px; margin-bottom: 30px">
+        Aviso Legal
+      </h1>
+
+      <div
+        style="
+          background: rgba(20, 15, 50, 0.9);
+          border-radius: 16px;
+          padding: 30px;
+          border: 1px solid rgba(255, 79, 216, 0.3);
+          line-height: 1.9;
+          color: #ccc;
+          font-size: 14px;
+        "
+      >
+        <h3 style="color: #fff; margin-top: 0">1. Informacion general</h3>
+        <p>
+          Girls Love Play es un sitio web de contenido informativo y de
+          entretenimiento dedicado al genero Girls Love (GL) asiatico. Para
+          consultas podes escribir a
+          <a href="mailto:info.girlsloveplay@gmail.com" style="color: #ff4fd8"
+            >info.girlsloveplay@gmail.com</a
+          >
+        </p>
+
+        <h3 style="color: #fff">2. Sobre el contenido</h3>
+        <p>
+          Este sitio no almacena, aloja ni distribuye ningun archivo de video o
+          audio en sus servidores. Todo el contenido proviene de los canales
+          oficiales de sus productoras en YouTube, mediante sus sistemas
+          oficiales de insercion (embed).
+        </p>
+
+        <h3 style="color: #fff">3. Derechos de autor</h3>
+        <p>
+          Los derechos de autor pertenecen exclusivamente a sus respectivos
+          creadores y/o titulares. Este sitio no reclama propiedad sobre ninguno
+          de dichos contenidos. Todos los textos, noticias y diseño del sitio
+          son propiedad de Girls Love Play.
+        </p>
+
+        <h3 style="color: #fff">4. Condiciones de uso</h3>
+        <p>
+          El acceso es gratuito y sin registro. El uso del sitio implica la
+          aceptacion de estas condiciones. El usuario se compromete a no emplear
+          los contenidos para actividades ilicitas o que vulneren derechos de
+          terceros.
+        </p>
+
+        <h3 style="color: #fff">5. Enlaces externos</h3>
+        <p>
+          Este sitio puede incluir enlaces a sitios de terceros. Girls Love Play
+          no se hace responsable del contenido, politicas o practicas de dichos
+          sitios.
+        </p>
+
+        <h3 style="color: #fff">6. Reclamos</h3>
+        <p>
+          Si sos titular de algun contenido y consideras que vulnera tus
+          derechos, contactanos a
+          <a href="mailto:info.girlsloveplay@gmail.com" style="color: #ff4fd8"
+            >info.girlsloveplay@gmail.com</a
+          >
+          y lo revisaremos a la brevedad.
+        </p>
+
+        <h3 style="color: #fff">7. Legislacion aplicable</h3>
+        <p>
+          Este sitio opera bajo la legislacion de la Republica Argentina,
+          incluyendo la Ley 11.723 de Propiedad Intelectual.
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px">
+        <a
+          href="index.html"
+          style="
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #ff4fd8, #8f5cff);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 20px;
+          "
+          >← Volver al inicio</a
+        >
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>© 2026 Girls Love Play - Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <button
+      onclick="window.scrollTo({top:0, behavior:'smooth'})"
+      id="btn-arriba"
+    >
+      ⬆
+    </button>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav").classList.toggle("active");
+      }
+      document
+        .querySelectorAll(".nav a")
+        .forEach((link) =>
+          link.addEventListener("click", () =>
+            document.querySelector(".nav").classList.remove("active")
+          )
+        );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Politica de Privacidad - Girls Love Play</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <div class="logo-container">
+        <img
+          src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+          class="logo"
+        />
+      </div>
+      <nav class="nav">
+        <a href="index.html#inicio">Inicio</a>
+        <a href="index.html#series">Series GL</a>
+        <a href="index.html#noticias">Noticias GL</a>
+        <a href="index.html#microficcion">Shorts GL</a>
+        <a href="index.html#ostsgl">OSTs GL</a>
+        <a href="index.html#comunidadgl">Comunidad GL</a>
+      </nav>
+      <div class="search-box">
+        <input type="text" placeholder="Buscar..." disabled />
+        <button>✕</button>
+      </div>
+    </header>
+
+    <div style="max-width: 800px; margin: 40px auto; padding: 20px">
+      <h1 style="color: #ff4fd8; font-size: 28px; margin-bottom: 30px">
+        Politica de Privacidad
+      </h1>
+
+      <div
+        style="
+          background: rgba(20, 15, 50, 0.9);
+          border-radius: 16px;
+          padding: 30px;
+          border: 1px solid rgba(255, 79, 216, 0.3);
+          line-height: 1.9;
+          color: #ccc;
+          font-size: 14px;
+        "
+      >
+        <h3 style="color: #fff; margin-top: 0">1. Responsable</h3>
+        <p>
+          Girls Love Play es responsable del tratamiento de los datos recabados
+          a traves de este sitio web. Contacto:
+          <a href="mailto:info.girlsloveplay@gmail.com" style="color: #ff4fd8"
+            >info.girlsloveplay@gmail.com</a
+          >
+        </p>
+
+        <h3 style="color: #fff">2. Datos que recopilamos</h3>
+        <p>
+          Este sitio no solicita ni almacena datos personales de sus visitantes.
+          No hay formularios de registro ni inicio de sesion. Los unicos datos
+          que pueden recopilarse son los generados automaticamente por el
+          navegador al visitar el sitio, como direccion IP y tipo de
+          dispositivo, a traves de servicios de terceros como Google Analytics.
+        </p>
+
+        <h3 style="color: #fff">3. Uso de cookies</h3>
+        <p>
+          Este sitio puede utilizar cookies de terceros como Google AdSense y
+          YouTube para mostrar contenido y publicidad relevante. Estas cookies
+          son gestionadas por dichos servicios y no por Girls Love Play. Al
+          continuar navegando, aceptas el uso de estas cookies.
+        </p>
+
+        <h3 style="color: #fff">4. Servicios de terceros</h3>
+        <p>
+          Este sitio utiliza los siguientes servicios externos que pueden
+          recopilar datos segun sus propias politicas:
+        </p>
+        <p>
+          - YouTube (videos embebidos):
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            style="color: #ff4fd8"
+            >Politica de privacidad de Google</a
+          >
+        </p>
+        <p>- Google Analytics (estadisticas de visitas)</p>
+
+        <h3 style="color: #fff">5. Derechos del usuario</h3>
+        <p>
+          Podés solicitar informacion sobre tus datos, su rectificacion o
+          eliminacion escribiendo a
+          <a href="mailto:info.girlsloveplay@gmail.com" style="color: #ff4fd8"
+            >info.girlsloveplay@gmail.com</a
+          >
+        </p>
+
+        <h3 style="color: #fff">6. Legislacion aplicable</h3>
+        <p>
+          Esta politica se rige por la legislacion de la Republica Argentina,
+          incluyendo la Ley 25.326 de Proteccion de Datos Personales.
+        </p>
+      </div>
+
+      <div style="text-align: center; margin-top: 30px">
+        <a
+          href="index.html"
+          style="
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #ff4fd8, #8f5cff);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: bold;
+          "
+          >← Volver al inicio</a
+        >
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-bottom">
+        <p>© 2026 Girls Love Play - Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <button
+      onclick="window.scrollTo({top:0, behavior:'smooth'})"
+      id="btn-arriba"
+    >
+      ⬆
+    </button>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector(".nav").classList.toggle("active");
+      }
+      document
+        .querySelectorAll(".nav a")
+        .forEach((link) =>
+          link.addEventListener("click", () =>
+            document.querySelector(".nav").classList.remove("active")
+          )
+        );
+    </script>
+  </body>
+</html>
