@@ -612,7 +612,7 @@ const seriesArray = [
 
   {
     id: "on&off",
-    img: "https://i.postimg.cc/5y9G0QFT/ON-OFF.jpg",
+    img: "/img/series/ON-OFF.jpg",
     titulo: "On & Off (2025)",
     genero: "Drama/Romance ",
     sinopsis:
@@ -622,7 +622,7 @@ const seriesArray = [
 
   {
     id: "unlimitedlove",
-    img: "https://i.postimg.cc/5y9ksLM2/Unlimited-Love-The-Series.jpg",
+    img: "/img/series/Unlimited-Love-The-Series.jpg",
     titulo: "Unlimited Love (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -632,7 +632,7 @@ const seriesArray = [
 
   {
     id: "lovehouse",
-    img: "https://i.postimg.cc/TYDXyS7f/Love-House-(2025).jpg",
+    img: "/img/series/Love-House-(2025).jpg",
     titulo: "Love House (2025)",
     genero: "Romance",
     sinopsis:
@@ -642,7 +642,7 @@ const seriesArray = [
 
   {
     id: "heartrule",
-    img: "https://i.postimg.cc/prpf9nZW/Heart-Rule-(2025).png",
+    img: "/img/series/Heart-Rule-(2025).jpg",
     titulo: "Heart Rule (2025)",
     genero: "Romance",
     sinopsis:
@@ -652,7 +652,7 @@ const seriesArray = [
 
   {
     id: "timelesslove",
-    img: "https://i.postimg.cc/Ghsp9Lj9/Timeless-love.jpg",
+    img: "/img/series/Timeless-love.jpg",
     titulo: "Timeless Love (2025)",
     genero: "Romance",
     sinopsis:
@@ -669,7 +669,7 @@ const seriesArray = [
 
   {
     id: "sassyseason",
-    img: "https://i.postimg.cc/xTJ8CQVW/Sassy-Season-(2025).jpg",
+    img: "/img/series/Sassy-Season-(2025).jpg",
     titulo: "Sassy Season (2025)",
     genero: "Romance",
     sinopsis:
@@ -679,7 +679,7 @@ const seriesArray = [
 
   {
     id: "kissthehater",
-    img: "https://i.postimg.cc/gkFXfy8n/kiss-the-hater.jpg",
+    img: "/img/series/kiss-the-hater.jpg",
     titulo: "Kiss the Hater (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -689,7 +689,7 @@ const seriesArray = [
 
   {
     id: "isthislove?",
-    img: "https://i.postimg.cc/Bb2yXrPx/is-this-love.jpg",
+    img: "/img/series/is-this-love.jpg",
     titulo: "Is This Love? (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -699,7 +699,7 @@ const seriesArray = [
 
   {
     id: "dangerousqueen",
-    img: "https://i.postimg.cc/0y1yryGp/Dangerous-Queen.jpg",
+    img: "/img/series/Dangerous-Queen.jpg",
     titulo: "Dangerous Queen (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -709,7 +709,7 @@ const seriesArray = [
 
   {
     id: "icebreakheartmelt",
-    img: "https://i.postimg.cc/qRhHMCvg/Ice-Break-Heart-Melt.png",
+    img: "/img/series/Ice-Break-Heart-Melt.jpg",
     titulo: "Ice Break, Heart Melt (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -719,7 +719,7 @@ const seriesArray = [
 
   {
     id: "theend",
-    img: "https://i.postimg.cc/3xZ1cWnk/The-End.jpg",
+    img: "/img/series/The-End.jpg",
     titulo: "The End (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -729,7 +729,7 @@ const seriesArray = [
 
   {
     id: "ustheseries",
-    img: "https://i.postimg.cc/vTxB0q7j/us.jpg",
+    img: "/img/series/us.jpg",
     titulo: "Us: The Series (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -739,7 +739,7 @@ const seriesArray = [
 
   {
     id: "teachmesoftly",
-    img: "https://i.postimg.cc/4NJwk8Cz/Teach-Me-Softly-(2025).jpg",
+    img: "/img/series/Teach-Me-Softly-(2025).jpg",
     titulo: "Teach Me Softly (2025)",
     genero: "Romance",
     sinopsis:
@@ -749,7 +749,7 @@ const seriesArray = [
 
   {
     id: "untilonceagain",
-    img: "https://i.postimg.cc/J05PQVNG/Until-Once-Again.jpg",
+    img: "/img/series/Until-Once-Again.jpg",
     titulo: "Until Once Again (2025)",
     genero: "Drama",
     sinopsis:
@@ -759,7 +759,7 @@ const seriesArray = [
 
   {
     id: "hiddenhalf",
-    img: "https://i.postimg.cc/BQBycM0W/Hidden-Half-(2025).jpg",
+    img: "/img/series/Hidden-Half-(2025).jpg",
     titulo: "Hidden Half (2025)",
     genero: "Romance",
     sinopsis:
@@ -769,7 +769,7 @@ const seriesArray = [
 
   {
     id: "thegirlwhomeow",
-    img: "https://i.postimg.cc/Wz8x1JfZ/The-Girl-Who-Meow.jpg",
+    img: "/img/series/The-Girl-Who-Meow.jpg",
     titulo: "The Girl Who Meow (2025)",
     genero: "Romance",
     sinopsis:
@@ -786,7 +786,7 @@ const seriesArray = [
 
   {
     id: "theotherme2025",
-    img: "https://i.postimg.cc/yxBjJ06p/The-Other-Me-(2025).jpg",
+    img: "/img/series/The-Other-Me-(2025).jpg",
     titulo: "The Other Me (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -796,7 +796,7 @@ const seriesArray = [
 
   {
     id: "trunkgirl",
-    img: "https://i.postimg.cc/C1c1hXbR/Chat-GPT-Image-15-abr-2026-09-08-23-p-m.png",
+    img: "/img/series/trunk girl.jpg",
     titulo: "Trunk Girl (2025)",
     genero: "Drama/Romance",
     sinopsis: "Una joven huye de casa y se va a quedar a casa de su amiga.",
@@ -805,7 +805,7 @@ const seriesArray = [
 
   {
     id: "thiWaRaTri",
-    img: "https://i.postimg.cc/sgJ1BSMc/Thi-Wa-Ra-Tri.png",
+    img: "/img/series/Thi-Wa-Ra-Tri.jpg",
     titulo: "ThiWaRaTri (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -815,7 +815,7 @@ const seriesArray = [
 
   {
     id: "hiddenheat",
-    img: "https://i.postimg.cc/cJvq4Vmq/Hidden-Heat-(2025).jpg",
+    img: "/img/series/Hidden-Heat-(2025).jpg",
     titulo: "Hidden Heat (2025)",
     genero: "Romance",
     sinopsis:
