@@ -1414,7 +1414,7 @@ const seriesArray = [
 
   {
     id: "redwhisper",
-    img: "https://i.postimg.cc/wvr0v48t/Red-Whisper.png",
+    img: "/img/series/Red-Whisper.jpg",
     titulo: "Red Whisper (2024)",
     genero: "Romance",
     sinopsis:
@@ -1424,7 +1424,7 @@ const seriesArray = [
 
   {
     id: "myghostlove",
-    img: "https://i.postimg.cc/pXxq4bbP/Amor_(fantasmal)_en_la_oficina.png",
+    img: "/img/series/Amor_(fantasmal)_en_la_oficina.jpg",
     titulo: "My (Ghost) Love (2024)",
     genero: "Romance/Sobrenatural",
     sinopsis:
@@ -1434,7 +1434,7 @@ const seriesArray = [
 
   {
     id: "INTPflirting",
-    img: "https://i.postimg.cc/YqgWjbL8/INTP-Flirting-(2024).png",
+    img: "/img/series/INTP-Flirting-(2024).jpg",
     titulo: "INTP Flirting (2024))",
     genero: "Romance",
     sinopsis:
@@ -1444,7 +1444,7 @@ const seriesArray = [
 
   {
     id: "clubfridayseason16lovebully",
-    img: "https://i.postimg.cc/pL1cSCK2/Club-Friday-Season-16-Love-Bully.jpg",
+    img: "/img/series/Club-Friday-Season-16-Love-Bully.jpg",
     titulo: "Club Friday Season 16: Love Bully (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1471,7 +1471,7 @@ const seriesArray = [
 
   {
     id: "lonelygirls",
-    img: "https://i.postimg.cc/8cfyk8xZ/Lonely-Girls-(2024).jpg",
+    img: "/img/series/Lonely-Girls-(2024).jpg",
     titulo: "Lonely Girls (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1481,7 +1481,7 @@ const seriesArray = [
 
   {
     id: "24hourlove",
-    img: "https://i.postimg.cc/FsY0ppDm/24-Hour-Love-(2024).png",
+    img: "/img/series/24-Hour-Love-(2024).jpg",
     titulo: "24 Hour Love (2024)",
     genero: "Romance",
     sinopsis:
@@ -1491,7 +1491,7 @@ const seriesArray = [
 
   {
     id: "apieceofmemory",
-    img: "https://i.postimg.cc/vmVk4d2c/a-piece-of-memory.png",
+    img: "/img/series/a-piece-of-memory.jpg",
     titulo: "A Piece of Memory (2024)",
     genero: "Romance",
     sinopsis:
@@ -1501,7 +1501,7 @@ const seriesArray = [
 
   {
     id: "xiaoxiangyijiu",
-    img: "https://i.postimg.cc/1ty22Y1X/Xiao-Xiang-Yi-Jiu-(2024).jpg",
+    img: "/img/series/Xiao-Xiang-Yi-Jiu-(2024).jpg",
     titulo: "Xiao Xiang Yi Jiu (2024)",
     genero: "Romance/Drama",
     sinopsis:
@@ -1511,7 +1511,7 @@ const seriesArray = [
 
   {
     id: "21dayscloserstep",
-    img: "https://i.postimg.cc/NjVKCYXM/21-days-Closer-Step.jpg",
+    img: "/img/series/21-days-Closer-Step.jpg",
     titulo: "21 days Closer Step (2024)",
     genero: "Romance",
     sinopsis:
@@ -1530,7 +1530,7 @@ const seriesArray = [
 
   {
     id: "mymarvellousdreamisyou (2024)",
-    img: "https://i.postimg.cc/qM3yfDv1/My-Marvellous-Dream-Is-You-(2024).jpg",
+    img: "/img/series/My-Marvellous-Dream-Is-You-(2024).jpg",
     titulo: "My Marvellous Dream Is You (2024)",
     genero: "Romance/Fantasy",
     sinopsis:
@@ -1589,7 +1589,7 @@ const seriesArray = [
 
   {
     id: "blankseason2",
-    img: "https://i.postimg.cc/3wxBbFxT/Blank-Season-2-(2024).jpg",
+    img: "/img/series/Blank-Season-2-(2024).jpg",
     titulo: "Blank Season 2 (2024)",
     genero: "Romance/Drama",
     sinopsis:
@@ -1624,7 +1624,7 @@ const seriesArray = [
 
   {
     id: "iamdevil",
-    img: "https://i.postimg.cc/L6CR6ghh/I-Am-Devil-(2024).jpg",
+    img: "/img/series/I-Am-Devil-(2024).jpg",
     titulo: "I Am Devil (2024)",
     genero: "Romance/Drama",
     sinopsis:
@@ -1659,7 +1659,7 @@ const seriesArray = [
 
   {
     id: "borderlessline",
-    img: "https://i.postimg.cc/90qS6hNs/Borderless-Line.jpg",
+    img: "/img/series/Borderless-Line.jpg",
     titulo: "Borderless Line (2024)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -1676,7 +1676,7 @@ const seriesArray = [
 
   {
     id: "mysecrettutor",
-    img: "https://i.postimg.cc/26QdcGT2/My-Secret-Tutor-(2024).png",
+    img: "/img/series/My-Secret-Tutor-(2024).jpg",
     titulo: "My Secret Tutor (2024)",
     genero: "Romance",
     sinopsis:
@@ -1686,7 +1686,7 @@ const seriesArray = [
 
   {
     id: "accidentallyyours",
-    img: "https://i.postimg.cc/BvmvQ0j9/Accidentally-Yours-(2024).jpg",
+    img: "/img/series/Accidentally-Yours-(2024).jpg",
     titulo: "Accidentally Yours (2024)",
     genero: "Romance",
     sinopsis:
@@ -1703,7 +1703,7 @@ const seriesArray = [
 
   {
     id: "youarevitaminsinnyroutine",
-    img: "https://i.postimg.cc/15Hy88Nk/You-are-vitamins-in-my-routine.jpg",
+    img: "/img/series/You-are-vitamins-in-my-routine.jpg",
     titulo: "You Are Vitamins in My Routine (2023)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1713,7 +1713,7 @@ const seriesArray = [
 
   {
     id: "I Still Remember the Feeling",
-    img: "https://i.postimg.cc/brRZtdXw/I-Still-Remember-the-Feeling-(2023).jpg",
+    img: "/img/series/I-Still-Remember-the-Feeling-(2023).jpg",
     titulo: "I Still Remember the Feeling (2023)",
     genero: "Romance",
     sinopsis:
@@ -1723,7 +1723,7 @@ const seriesArray = [
 
   {
     id: "antichristmasclub",
-    img: "https://i.postimg.cc/5NJZFPJ5/Anti-Christmas-Club-(2023).jpg",
+    img: "/img/series/Anti-Christmas-Club-(2023).jpg",
     titulo: "Anti Christmas Club (2023)",
     genero: "Romance",
     sinopsis: "",
@@ -1732,7 +1732,7 @@ const seriesArray = [
 
   {
     id: "rulerbreaker",
-    img: "https://i.postimg.cc/8zgKnrFf/Rule-Breaker.png",
+    img: "/img/series/Rule-Breaker.jpg",
     titulo: "Rule Breaker (2025)",
     genero: "Romance",
     sinopsis: "",
@@ -1741,7 +1741,7 @@ const seriesArray = [
 
   {
     id: "luckymylove",
-    img: "https://i.postimg.cc/k5SrTvCZ/Lucky-My-Love.png",
+    img: "/img/series/Lucky-My-Love.jpg",
     titulo: "Lucky My Love (2023)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -2016,7 +2016,6 @@ const comunidadArray = [
 // ✅ Solo necesitás pegar el videoId — título y miniatura se cargan solos
 // =====================
 const ostsArray = [
-  { id: "ost1", videoId: "CufGfB9ylDw" },
   { id: "ost1", videoId: "MeEqOOH-2eE" },
   { id: "ost1", videoId: "4hFyFMp9ml4" },
   { id: "ost1", videoId: "27klSLsVCR4" },
