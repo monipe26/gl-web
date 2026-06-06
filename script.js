@@ -28,6 +28,47 @@ const seriesArray = [
   },
 
   {
+    id: "shades",
+    img: "/img/series/shades-2026.jpg",
+    titulo: "Shades(2026)",
+    genero: "Romance/Drama",
+    sinopsis:
+      "Shades sigue a seis estudiantes y dos profesoras de una escuela solo para mujeres, donde secretos e identidades ocultas cambian todo.",
+    videos: ["I57LYooYcJs", "OQt-bR7YUHA", "16mRTBTi2T8", "Fab2WHEke4A"],
+  },
+
+  {
+    id: "bemyangel",
+    img: "/img/series/Be_My_Angel_(2026).jpg",
+    titulo: "Be My Angel (2026)",
+    genero: "Romance/Comedia",
+    sinopsis:
+      "Jane cambia todos sus méritos por tres deseos, pero recibe a Z, un ángel torpe e inexperto que le complica la vida.",
+    videos: [
+      "fGoXO9OHCaU",
+      "PHA0fnTj4e0",
+      "fwKtuqckiWs",
+      "B3OassE1LGk",
+      "zZV4hPBzbK0",
+      "56XS_thZOrM",
+      "zR_LS73IVwQ",
+      "y30_bX7gxPg",
+      "QNlFqoRzHLo",
+      "a8zLIyfTzas",
+      "iEk6SoTkvbU",
+      "xanFPolaIOo",
+      "vUwPRYBRBTg",
+      "2hsQvn57L8M",
+      "EJFGDfSPw0M",
+      "EWxEwDlEOew",
+      "rNmrigjSFFc",
+      "XhraM6X-Us0",
+      "7sn0RgmEEH4",
+      "eLEOndVOQf8",
+    ],
+  },
+
+  {
     id: "rentallovelab",
     img: "/img/series/Rental-Love-Lab.jpg",
     titulo: "Rental Love Lab (2026)",
