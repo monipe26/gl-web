@@ -332,7 +332,7 @@ const seriesArray = [
 
   {
     id: "clairebell",
-    img: "https://i.postimg.cc/jjBfbKGw/clairebell.jpg",
+    img: "/img/series/clairebell.jpg",
     titulo: "Clairebell (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -343,7 +343,7 @@ const seriesArray = [
 
   {
     id: "runaway",
-    img: "https://i.postimg.cc/7LkXy37s/runaway-series.jpg",
+    img: "/img/series/runaway-series.jpg",
     titulo: "Runaway (2025)",
     genero: "Drama/Terror",
     sinopsis:
@@ -387,7 +387,7 @@ const seriesArray = [
 
   {
     id: "player",
-    img: "https://i.postimg.cc/KzxCJTjm/player.jpg",
+    img: "/img/series/player.jpg",
     titulo: "Player (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -397,7 +397,7 @@ const seriesArray = [
 
   {
     id: "kissofyesterday",
-    img: "https://i.postimg.cc/x1z39Hx3/kiss-of-yesterday-the-series.png",
+    img: "/img/series/kiss-of-yesterday-the-series.jpg",
     titulo: "Kiss of Yesterday (2025)",
     genero: "Romance",
     sinopsis:
@@ -407,7 +407,7 @@ const seriesArray = [
 
   {
     id: "dearyou",
-    img: "https://i.postimg.cc/65CdbxMt/Dear-You-(2025).png",
+    img: "/img/series/Dear-You-(2025).jpg",
     titulo: "Dear You (2025)",
     genero: "Romance",
     sinopsis: "",
@@ -416,7 +416,7 @@ const seriesArray = [
 
   {
     id: "whalestorexoxo",
-    img: "https://i.postimg.cc/1XC3crct/whale-store-xoxo.jpg",
+    img: "/img/series/whale-store-xoxo.jpg",
     titulo: "Whale Store xoxo (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -426,7 +426,7 @@ const seriesArray = [
 
   {
     id: "yourapple",
-    img: "https://i.postimg.cc/q7ZfPcL8/(Your)-Apple-(2025).jpg",
+    img: "/img/series/(Your)-Apple-(2025).jpg",
     titulo: "(Your) Apple (2025)",
     genero: "Romance",
     sinopsis:
@@ -436,7 +436,7 @@ const seriesArray = [
 
   {
     id: "reversewithme",
-    img: "https://i.postimg.cc/6qnNTVj2/Reverse-with-Me-1.png",
+    img: "/img/series/Reverse-with-Me-1.jpg",
     titulo: "Reverse with Me (2025)",
     genero: "Romance/Fantasia",
     sinopsis:
@@ -446,7 +446,7 @@ const seriesArray = [
 
   {
     id: "adrenaline",
-    img: "https://i.postimg.cc/cCxbZNGw/Adrenaline-The-Rhythm-of-Love-(2025).jpg",
+    img: "/img/series/Adrenaline-The-Rhythm-of-Love-(2025).jpg",
     titulo: "Adrenaline (2025)",
     genero: "Romance",
     sinopsis:
@@ -456,7 +456,7 @@ const seriesArray = [
 
   {
     id: "mystarmysky",
-    img: "https://i.postimg.cc/xTJggBdB/My-Star-My-Sky-(2025).png",
+    img: "/img/series/My-Star-My-Sky-(2025).jpg",
     titulo: "My Star, My Sky (2025)",
     genero: "Romance",
     sinopsis:
@@ -466,7 +466,7 @@ const seriesArray = [
 
   {
     id: "musicstorylosingcontrol",
-    img: "https://i.postimg.cc/XJdtKfd6/Music-Story-Losing-Control.jpg",
+    img: "/img/series/Music-Story-Losing-Control.jpg",
     titulo: "Music Story: Losing Control (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -476,7 +476,7 @@ const seriesArray = [
 
   {
     id: "LLLproject",
-    img: "https://i.postimg.cc/8cJp6fyx/L-L-L-Project.jpg",
+    img: "/img/series/L-L-L-Project.jpg",
     titulo: "L.L.L. Project (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -486,7 +486,7 @@ const seriesArray = [
 
   {
     id: "asyouwishlovelovereset",
-    img: "https://i.postimg.cc/ydqxXVmC/As-You-Wish-Love-Love-Reset.jpg",
+    img: "/img/series/As-You-Wish-Love-Love-Reset.jpg",
     titulo: "As You Wish Love: Love Reset (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -496,7 +496,7 @@ const seriesArray = [
 
   {
     id: "poisonouslove",
-    img: "https://i.postimg.cc/8zxVHpXr/Poisonous-Love.jpg",
+    img: "/img/series/Poisonous-Love.jpg",
     titulo: "Poisonous Love (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -552,7 +552,7 @@ const seriesArray = [
 
   {
     id: "somewheresomehow",
-    img: "https://i.postimg.cc/g2p5dXCH/r-k-pak-khae-ng-Somewhere-Somehow.jpg",
+    img: "/img/series/Somewhere-Somehow.jpg",
     titulo: "Somewhere Somehow (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -562,7 +562,7 @@ const seriesArray = [
 
   {
     id: "catchcatcrush",
-    img: "https://i.postimg.cc/HkMfK7LW/Catch-Cat-Crush.jpg",
+    img: "/img/series/Catch-Cat-Crush.jpg",
     titulo: "Catch Cat Crush (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -572,7 +572,7 @@ const seriesArray = [
 
   {
     id: "harmonysecret",
-    img: "https://i.postimg.cc/ncRdPTtW/harmony-secret.jpg",
+    img: "/img/series/harmony-secret.jpg",
     titulo: "Harmony Secret (2025)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -582,7 +582,7 @@ const seriesArray = [
 
   {
     id: "missionloveorlies",
-    img: "https://i.postimg.cc/R0XxsKX4/Mission-Love-or-Lies.jpg",
+    img: "/img/series/Mission-Love-or-Lies (1).jpg",
     titulo: "Mission: Love or Lies (2025)",
     genero: "Acción/Comedia",
     sinopsis:
@@ -592,7 +592,7 @@ const seriesArray = [
 
   {
     id: "hateyouloveyou",
-    img: "https://i.postimg.cc/XNKr2tkz/hate-you-love-you-gl.jpg",
+    img: "/img/series/hate-you-love-you-gl.jpg",
     titulo: "Hate You Love You (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -602,7 +602,7 @@ const seriesArray = [
 
   {
     id: "firstlove",
-    img: "https://i.postimg.cc/2S5dfmYs/First-Love-(2025).png",
+    img: "/img/series/First-Love-(2025).jpg",
     titulo: "First Love (2025)",
     genero: "Romance",
     sinopsis:
