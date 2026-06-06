@@ -18,6 +18,16 @@ let lastPlaylistIndex = -1;
 
 const seriesArray = [
   {
+    id: "neverfade",
+    img: "/img/series/never fade.jpg",
+    titulo: "Never Fade (2026)",
+    genero: "Romance/Drama",
+    sinopsis:
+      "Never Fade es un corto GL de Yoko Apasra, su proyecto de graduación, sobre tatuajes, miedo, dolor y un amor entre mujeres que perdura.",
+    videos: ["cxhBYv0On58"],
+  },
+
+  {
     id: "rentallovelab",
     img: "/img/series/Rental-Love-Lab.jpg",
     titulo: "Rental Love Lab (2026)",
@@ -2016,6 +2026,8 @@ const comunidadArray = [
 // ✅ Solo necesitás pegar el videoId — título y miniatura se cargan solos
 // =====================
 const ostsArray = [
+  { id: "ost1", videoId: "354VXHaqaE4" },
+  { id: "ost1", videoId: "Kdyph-0nKwc" },
   { id: "ost1", videoId: "MeEqOOH-2eE" },
   { id: "ost1", videoId: "4hFyFMp9ml4" },
   { id: "ost1", videoId: "27klSLsVCR4" },
