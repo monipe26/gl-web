@@ -825,7 +825,7 @@ const seriesArray = [
 
   {
     id: "absolutelove",
-    img: "https://i.postimg.cc/DzKCCpP9/Absolute-Love-(2025).jpg",
+    img: "/img/series/Absolute-Love-(2025).jpg",
     titulo: "Absolute Love (2025)",
     genero: "Drama/Romance",
     sinopsis: "",
@@ -834,7 +834,7 @@ const seriesArray = [
 
   {
     id: "killerheart",
-    img: "https://i.postimg.cc/fTFH0t9y/Killer-Heart-(2025).png",
+    img: "/img/series/Killer-Heart-(2025).jpg",
     titulo: "Killer Heart (2025)",
     genero: "Romance",
     sinopsis:
@@ -844,7 +844,7 @@ const seriesArray = [
 
   {
     id: "howtohatemyex",
-    img: "https://i.postimg.cc/500sSkPX/How-to-Hate-My-Ex-(2025).jpg",
+    img: "/img/series/How-to-Hate-My-Ex-(2025).jpg",
     titulo: "How to Hate My Ex (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -862,7 +862,7 @@ const seriesArray = [
 
   {
     id: "resettoremember",
-    img: "https://i.postimg.cc/ZYjKsrq5/Reset-To-Remember.jpg",
+    img: "/img/series/Reset-To-Remember.jpg",
     titulo: "Reset To Remember (2025)",
     genero: "Romance",
     sinopsis:
@@ -880,7 +880,7 @@ const seriesArray = [
 
   {
     id: "lovemoment",
-    img: "https://i.postimg.cc/gj21ts7J/Love-Moment-(2025).jpg",
+    img: "/img/series/Love-Moment-(2025).jpg",
     titulo: "Love Moment (2025)",
     genero: "Life",
     sinopsis:
@@ -899,7 +899,7 @@ const seriesArray = [
 
   {
     id: "rollercoaster",
-    img: "https://i.postimg.cc/y6Xj4FxG/Roller-Coaster-(2025).jpg",
+    img: "/img/series/Roller-Coaster-(2025).jpg",
     titulo: "Roller Coaster (2025)",
     genero: "Drama/Romance",
     sinopsis:
@@ -942,7 +942,7 @@ const seriesArray = [
 
   {
     id: "bunnybunny",
-    img: "https://i.postimg.cc/kghP5Cpj/Bunny-Bunny.png",
+    img: "/img/series/Bunny-Bunny.jpg",
     titulo: "Bunny Bunny (2025)",
     genero: "Drama/Romance",
     sinopsis: "",
@@ -951,7 +951,7 @@ const seriesArray = [
 
   {
     id: "firstoffice",
-    img: "https://i.postimg.cc/rpmkP8tD/first-office.png",
+    img: "/img/series/first-office.jpg",
     titulo: "First Office (2025)",
     genero: "Romance",
     sinopsis: "",
@@ -960,7 +960,7 @@ const seriesArray = [
 
   {
     id: "mydearghost",
-    img: "https://i.postimg.cc/Rhm4h4G1/My-Dear-Ghost.jpg",
+    img: "/img/series/My-Dear-Ghost.jpg",
     titulo: "My Dear Ghost (2025)",
     genero: "Romance",
     sinopsis:
@@ -970,7 +970,7 @@ const seriesArray = [
 
   {
     id: "fromliarintolover",
-    img: "https://i.postimg.cc/Kjs5520w/From-Liar-into-Lover-(2025).jpg",
+    img: "/img/series/From-Liar-into-Lover-(2025).jpg",
     titulo: "From Liar into Lover (2025)",
     genero: "Romance",
     sinopsis:
@@ -980,7 +980,7 @@ const seriesArray = [
 
   {
     id: "whoknowsgirlsl",
-    img: "https://i.postimg.cc/bNYmh4pq/Who-Knows-Girls-L-(2025).jpg",
+    img: "/img/series/Who-Knows-Girls-L-(2025).jpg",
     titulo: "Who Knows Girls' L (2025)",
     genero: "Romance",
     sinopsis:
@@ -990,7 +990,7 @@ const seriesArray = [
 
   {
     id: "youremygift (2025)",
-    img: "https://i.postimg.cc/tC52F2D1/You-re-My-Gift-(2025).jpg",
+    img: "/img/series/You-re-My-Gift-(2025).jpg",
     titulo: "You're My Gift (2025)",
     genero: "Romance",
     sinopsis: "",
@@ -999,7 +999,7 @@ const seriesArray = [
 
   {
     id: "blank",
-    img: "https://i.postimg.cc/VL4Dcr4v/blank.jpg",
+    img: "/img/series/blank.jpg",
     titulo: "Blank (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1035,7 +1035,7 @@ const seriesArray = [
 
   {
     id: "affair",
-    img: "https://i.postimg.cc/ncjGB3vM/affair.jpg",
+    img: "/img/series/affair.jpg",
     titulo: "Affair (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1078,7 +1078,7 @@ const seriesArray = [
 
   {
     id: "pluto",
-    img: "https://i.postimg.cc/W3SxqTBv/pluto-the-series.jpg",
+    img: "/img/series/pluto-the-series.jpg",
     titulo: "Pluto (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1088,7 +1088,7 @@ const seriesArray = [
 
   {
     id: "findloveinhermind",
-    img: "https://i.postimg.cc/65vvc6dV/Find-love-in-her-mind.jpg",
+    img: "/img/series/Find-love-in-her-mind.jpg",
     titulo: "Find Love In Her Mind (2024)",
     genero: "Romance/Sobrenatural",
     sinopsis:
@@ -1098,7 +1098,7 @@ const seriesArray = [
 
   {
     id: "heartbreaktohappiness",
-    img: "https://i.postimg.cc/Gt4FPkQt/Heartbreak-to-Happiness-(2024).jpg",
+    img: "/img/series/Heartbreak-to-Happiness-(2024).jpg",
     titulo: "Heartbreak to Happiness (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1108,7 +1108,7 @@ const seriesArray = [
 
   {
     id: "1440minutes",
-    img: "https://i.postimg.cc/Yq0rDhyC/1440-Minutes.jpg",
+    img: "/img/series/1440-Minutes.jpg",
     titulo: "1440 Minutes (2024)",
     genero: "Drama/Romance",
     sinopsis: "",
@@ -1117,7 +1117,7 @@ const seriesArray = [
 
   {
     id: "sameplace,newpace",
-    img: "https://i.postimg.cc/0Q0XvpTf/same-place-new-pace.jpg",
+    img: "/img/series/same-place-new-pace.jpg",
     titulo: "Same Place, New Pace (2024)",
     genero: "Romance",
     sinopsis:
@@ -1127,7 +1127,7 @@ const seriesArray = [
 
   {
     id: "staywithme",
-    img: "https://i.postimg.cc/02W99KMr/Stay-with-Me.png",
+    img: "/img/series/Stay-with-Me.jpg",
     titulo: "Stay with Me (2024)",
     genero: "Romance",
     sinopsis: "",
@@ -1153,7 +1153,7 @@ const seriesArray = [
 
   {
     id: "thesecretofus",
-    img: "https://i.postimg.cc/L8B1XGgP/The_Secret_of_Us_(2024).jpgg",
+    img: "/img/series/Stay-with-Me.jpg",
     titulo: "The Secret of Us (2024)",
     genero: "Drama/Romance",
     sinopsis:
