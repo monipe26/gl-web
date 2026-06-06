@@ -2242,7 +2242,7 @@ const shipsArray = [
     nombres: "Pansa Vosbein & Pattranite Limpatiyakorn",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    mg: "/img/ships/MilkLove.jpg",
+    img: "/img/ships/MilkLove.jpg",
     instagram: [
       { nombre: "Milk", url: "https://www.instagram.com/panly.v" },
       { nombre: "Love", url: "https://www.instagram.com/loverrukk" },
