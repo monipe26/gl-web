@@ -1757,7 +1757,7 @@ const seriesArray = [
 
   {
     id: "lovesenior",
-    img: "https://i.postimg.cc/brr14yBm/Love-Senior-(2023).jpg",
+    img: "/img/series/Love-Senior-(2023).jpg",
     titulo: "Love Senior (2023)",
     genero: "Romance/Drama",
     sinopsis:
@@ -1808,7 +1808,7 @@ const seriesArray = [
 
   {
     id: "welcometothelesbianbar",
-    img: "https://i.postimg.cc/SsrXqQxQ/Welcome-to-the-Lesbian-Bar-(2023).jpg",
+    img: "/img/series/Welcome-to-the-Lesbian-Bar-(2023).jpg",
     titulo: "Welcome to the Lesbian Bar (2023)",
     genero: "Romance",
     sinopsis:
@@ -1824,7 +1824,7 @@ const seriesArray = [
 
   {
     id: "dontbreakmymission",
-    img: "https://i.postimg.cc/KjM5vpT4/Don-t-Break-My-Mission-(2023).png",
+    img: "/img/series/Don-t-Break-My-Mission-(2023).jpg",
     titulo: "Dont Break My Mission (2023)",
     genero: "Romance",
     sinopsis: "",
@@ -1833,7 +1833,7 @@ const seriesArray = [
 
   {
     id: "putourheartonthepaper",
-    img: "https://i.postimg.cc/G9nmTNDz/Put-Our-Heart-on-the-Paper-(2023).jpg",
+    img: "/img/series/Put-Our-Heart-on-the-Paper-(2023).jpg",
     titulo: "Put Our Heart on the Paper (2023)",
     genero: "Romance",
     sinopsis:
@@ -1843,7 +1843,7 @@ const seriesArray = [
 
   {
     id: "lemonvsmelon",
-    img: "https://i.postimg.cc/Hxc4zKyH/Lemon-VS-Melon.jpg",
+    img: "/img/series/Lemon-VS-Melon.jpg",
     titulo: "Lemon vs Melon (2023)",
     genero: "Romance",
     sinopsis:
@@ -1853,7 +1853,7 @@ const seriesArray = [
 
   {
     id: "cozyfirstlove",
-    img: "https://i.postimg.cc/MpPzdYh3/Cozy-First-Love.jpg",
+    img: "/img/series/Cozy-First-Love.jpg",
     titulo: "Cozy First Love (2023)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1863,7 +1863,7 @@ const seriesArray = [
 
   {
     id: "youarethecreaminmycoffee",
-    img: "https://i.postimg.cc/g0vMgHZg/You-Are-the-Cream-in-My-Coffee-(2023).jpg",
+    img: "/img/series/You-Are-the-Cream-in-My-Coffee-(2023).jpg",
     titulo: "You Are the Cream in My Coffee (2023)",
     genero: "Romance",
     sinopsis:
@@ -1873,7 +1873,7 @@ const seriesArray = [
 
   {
     id: "showmelove",
-    img: "https://i.postimg.cc/Dw0Q0Z5c/show-me-love.jpg",
+    img: "/img/series/show-me-love.jpg",
     titulo: "Show me love (2023)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1917,7 +1917,7 @@ const seriesArray = [
 
   {
     id: "gaptheseries",
-    img: "https://i.postimg.cc/sXPW0mk2/GAP-8.png",
+    img: "/img/series/GAP-8.jpg",
     titulo: "GAP The Series (2022)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -1927,7 +1927,7 @@ const seriesArray = [
 
   {
     id: "2PMcampus",
-    img: "https://i.postimg.cc/vHcvtYr4/2PM-Campus-(2022).jpg",
+    img: "/img/series/2PM-Campus-(2022).jpg",
     titulo: "2PM Campus (2022)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1937,7 +1937,7 @@ const seriesArray = [
 
   {
     id: "from1metreto1centimetre",
-    img: "https://i.postimg.cc/9QTyXrWR/From-1-Metre-to-1-Centimetre.jpg",
+    img: "/img/series/From-1-Metre-to-1-Centimetre.jpg",
     titulo: "From 1 Metre to 1 Centimetre (2022)",
     genero: "Drama/Romance",
     sinopsis: "",
@@ -1946,7 +1946,7 @@ const seriesArray = [
 
   {
     id: "alwaysbeyou",
-    img: "https://i.postimg.cc/4N4BYCNt/Always-Be-You-(2022).jpg",
+    img: "/img/series/Always-Be-You-(2022).jpg",
     titulo: "Always Be You (2022)",
     genero: "Romance",
     sinopsis:
@@ -1956,7 +1956,7 @@ const seriesArray = [
 
   {
     id: "girlfriendprojectday1",
-    img: "https://i.postimg.cc/SNcBr9WZ/girlfriend.jpg",
+    img: "/img/series/girlfriend.jpg",
     titulo: "Girlfriend Project Day 1 (2022)",
     genero: "Romance",
     sinopsis:
@@ -1966,7 +1966,7 @@ const seriesArray = [
 
   {
     id: "myfairyghost",
-    img: "https://i.postimg.cc/Y9JgjTrX/My-Fairy-Ghost-(2022).jpg",
+    img: "/img/series/My-Fairy-Ghost-(2022).jpg",
     titulo: "My Fairy Ghost (2022)",
     genero: "Romance/Drama",
     sinopsis:
@@ -1977,7 +1977,7 @@ const seriesArray = [
   {
     id: "shockmegirls",
     titulo: "Shock Me Girls (2026)",
-    img: "https://i.postimg.cc/rFw8GKHS/Shock-Me-Girls-(2026).jpg",
+    img: "/img/series/Shock-Me-Girls-(2026).jpg",
     genero: "Romance/comedia",
     tiktoks: [
       "7611863842435468561",
