@@ -1153,7 +1153,7 @@ const seriesArray = [
 
   {
     id: "thesecretofus",
-    img: "/img/series/Stay-with-Me.jpg",
+    img: "/img/series/The_Secret_of_Us_(2024).jpg",
     titulo: "The Secret of Us (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1182,7 +1182,7 @@ const seriesArray = [
 
   {
     id: "friendwithbenefits",
-    img: "https://i.postimg.cc/PfMwmyhY/Friend-with-Benefits-(2024).png",
+    img: "/img/series/Friend-with-Benefits-(2024).jpg",
     titulo: "Friend with Benefits (2024)",
     genero: "Romance",
     sinopsis:
@@ -1192,7 +1192,7 @@ const seriesArray = [
 
   {
     id: "lovefromanotherstar",
-    img: "https://i.postimg.cc/T397kR7c/Love-from-Another-Star-(2025).jpg",
+    img: "/img/series/Love-from-Another-Star-(2025).jpg",
     titulo: "Love from Another Star (2025)",
     genero: "Romance",
     sinopsis:
@@ -1202,7 +1202,7 @@ const seriesArray = [
 
   {
     id: "unlockyourlove",
-    img: "https://i.postimg.cc/3r9XgzfF/Unlock-Your-Love-02.png",
+    img: "/img/series/Unlock-Your-Love-02.jpg",
     titulo: "Unlock your love (2024)",
     genero: "Comedia/Romance",
     sinopsis:
@@ -1212,7 +1212,7 @@ const seriesArray = [
 
   {
     id: "sharehouse",
-    img: "https://i.postimg.cc/J0Fcxryw/Share-House.jpg",
+    img: "/img/series/Share-House.jpg",
     titulo: "Share House (2024)",
     genero: "Romance",
     sinopsis:
@@ -1222,7 +1222,7 @@ const seriesArray = [
 
   {
     id: "loyalpin",
-    img: "https://i.postimg.cc/qMFwt9S0/loyal-pin.png",
+    img: "/img/series/loyal-pin.jpg",
     titulo: "Loyal Pin (2024)",
     genero: "Romance/Historico",
     sinopsis:
@@ -1232,7 +1232,7 @@ const seriesArray = [
 
   {
     id: "amongthecloud",
-    img: "https://i.postimg.cc/BvY35SFm/Among-the-cloud.jpg",
+    img: "/img/series/Among-the-cloud.jpg",
     titulo: "Among the cloud (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1242,7 +1242,7 @@ const seriesArray = [
 
   {
     id: "deepnightsidestorythetwoofus",
-    img: "https://i.postimg.cc/tRvbBQtk/Deep-Night-Side-Story-The-Two-of-Us.jpg",
+    img: "/img/series/Deep-Night-Side-Story-The-Two-of-Us.jpg",
     titulo: "The Two of Us Season 1 (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1252,7 +1252,7 @@ const seriesArray = [
 
   {
     id: "deepnightsidestorythetwoofus2",
-    img: "https://i.postimg.cc/XNZbp19V/Deep-Night-Side-Story-The-Two-of-Us-Season-2.jpg",
+    img: "/img/series/Deep-Night-Side-Story-The-Two-of-Us-Season-2.jpg",
     titulo: "The Two of Us Season 2 (2024)",
     genero: "Drama/Romance",
     sinopsis: "",
@@ -1261,7 +1261,7 @@ const seriesArray = [
 
   {
     id: "mate",
-    img: "https://i.postimg.cc/Fz7BGpXQ/Mate-(2024).jpg",
+    img: "/img/series/Mate-(2024).jpg",
     titulo: "Mate (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1284,7 +1284,7 @@ const seriesArray = [
 
   {
     id: "apple",
-    img: "https://i.postimg.cc/W1LKMyPW/Apple-My-Love.jpg",
+    img: "/img/series/Apple-My-Love.jpg",
     titulo: "Apple (2024)",
     genero: "Romance",
     sinopsis:
@@ -1324,7 +1324,7 @@ const seriesArray = [
 
   {
     id: "fateswhispers",
-    img: "https://i.postimg.cc/3NNQPZzW/Fate-s-Whispers.jpg",
+    img: "/img/series/Fate-s-Whispers.jpg",
     titulo: "Fate's Whispers (2024)",
     genero: "Romance",
     sinopsis:
@@ -1334,7 +1334,7 @@ const seriesArray = [
 
   {
     id: "designyoubesideme",
-    img: "https://i.postimg.cc/2jWP83Hm/Design-You-Beside-Me.jpg",
+    img: "/img/series/Design-You-Beside-Me.jpg",
     titulo: "Design You Beside Me (2024)",
     genero: "Romance",
     sinopsis:
@@ -1344,7 +1344,7 @@ const seriesArray = [
 
   {
     id: "midsummerlove",
-    img: "https://i.postimg.cc/RCWrB3Rf/Midsummer-Love-(2024).png",
+    img: "/img/series/Midsummer-Love-(2024).jpg",
     titulo: "Midsummer Love (2024)",
     genero: "Romance",
     sinopsis:
@@ -1354,7 +1354,7 @@ const seriesArray = [
 
   {
     id: "seayousoon",
-    img: "https://i.postimg.cc/KzCfXKDF/Sea-You-Soon.jpg",
+    img: "/img/series/Sea-You-Soon.jpg",
     titulo: "Sea You Soon (2024)",
     genero: "Romance",
     sinopsis:
@@ -1364,7 +1364,7 @@ const seriesArray = [
 
   {
     id: "ghostfriendforever",
-    img: "https://i.postimg.cc/zG0FBFj9/Ghostfriend-forever.jpg",
+    img: "/img/series/Ghostfriend-forever.jpg",
     titulo: "GhostFriend Forever (2024)",
     genero: "Romance",
     sinopsis:
@@ -1374,7 +1374,7 @@ const seriesArray = [
 
   {
     id: "deleteyourpast",
-    img: "https://i.postimg.cc/4yJgBwRD/Delete-Your-Past.jpg",
+    img: "/img/series/Delete-Your-Past.jpg",
     titulo: "Delete Your Past (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1384,7 +1384,7 @@ const seriesArray = [
 
   {
     id: "littlecupid",
-    img: "https://i.postimg.cc/VNXtDp6c/Little-Cupid.jpg",
+    img: "/img/series/Little-Cupid.jpg",
     titulo: "Little Cupid (2024)",
     genero: "Romance/Familia",
     sinopsis:
@@ -1394,7 +1394,7 @@ const seriesArray = [
 
   {
     id: "mywednesday",
-    img: "https://i.postimg.cc/qRHb3mcv/My-Wednesday.jpg",
+    img: "/img/series/My-Wednesday.jpg",
     titulo: "My Wednesday (2024)",
     genero: "Drama/Romance",
     sinopsis:
@@ -1404,7 +1404,7 @@ const seriesArray = [
 
   {
     id: "melodyofadream",
-    img: "https://i.postimg.cc/c1RHf5pP/Melody-of-a-Dream-(2024).png",
+    img: "/img/series/Melody-of-a-Dream-(2024).jpg",
     titulo: "Melody of a Dream (2024)",
     genero: "Drama/Romance",
     sinopsis:
