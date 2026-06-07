@@ -2067,6 +2067,7 @@ const comunidadArray = [
 // ✅ Solo necesitás pegar el videoId — título y miniatura se cargan solos
 // =====================
 const ostsArray = [
+  { id: "ost1", videoId: "Sxh28YQGSq0" },
   { id: "ost1", videoId: "354VXHaqaE4" },
   { id: "ost1", videoId: "Kdyph-0nKwc" },
   { id: "ost1", videoId: "MeEqOOH-2eE" },
@@ -2316,7 +2317,7 @@ const shipsArray = [
     nombres: "Tipnaree Weerawatnodom & Rachanun Mahawan",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/NamtanFilm.jpg",
     instagram: [
       { nombre: "Namtan", url: "https://www.instagram.com/namtan.tipnaree/" },
       { nombre: "Film", url: "https://www.instagram.com/fr.racha/" },
@@ -2332,7 +2333,7 @@ const shipsArray = [
     nombres: "Apple Narisa & Mimu Rattanawadee",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/AppleMim.jpg",
     instagram: [
       { nombre: "Apple", url: "https://www.instagram.com/applelapisara" },
       { nombre: "Mim", url: "https://www.instagram.com/mimu.p" },
@@ -2347,7 +2348,7 @@ const shipsArray = [
     nombres: "View Benyapa Janpeng & Mim Rattanawadee",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/ViewMim.png",
     instagram: [
       { nombre: "View", url: "https://www.instagram.com/view.benyapa/" },
       { nombre: "Mim", url: "https://www.instagram.com/mim.rattanawadee" },
@@ -2366,7 +2367,7 @@ const shipsArray = [
     nombres: "Shelly & Pundao",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/ShellyPundao.jpg",
     instagram: [
       { nombre: "Shelly", url: "https://www.instagram.com/shellybenda" },
       { nombre: "Pundao", url: "https://www.instagram.com/_pundao" },
@@ -2381,7 +2382,7 @@ const shipsArray = [
     nombres: "Ormsin Supitcha Limsommut & Folk Sutima Korkiatvanich",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/OrmFolk.jpg",
     instagram: [
       { nombre: "Ormsin", url: "https://www.instagram.com/omeormorm" },
       { nombre: "Folk", url: "https://www.instagram.com/ffolky" },
@@ -2401,7 +2402,7 @@ const shipsArray = [
     nombres: "Nuttawan Teerapratan y Prawrawee Kitiworrakarn",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/NoonPraewa.jpg",
     instagram: [
       { nombre: "Noon", url: "" },
       { nombre: "Praewa", url: "https://www.instagram.com/praewa.era" },
