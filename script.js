@@ -2825,7 +2825,7 @@ function buscar() {
       if (s.sectionId === "noticias") {
         renderNoticias(filtrado, s.containerId, s.paginationId, 6);
       } else {
-        renderSection(filtrado, s.containerId, s.paginationId);
+        renderSection(filtrado, s.containerId, s.paginationId, 20);
       }
       if (!primerResultado) primerResultado = seccionEl;
     } else {
@@ -2847,12 +2847,26 @@ function buscar() {
 
 function limpiar() {
   document.getElementById("buscador").value = "";
+  const secciones = [
+    {
+      array: seriesArray,
+      containerId: "series-container",
+      paginationId: "pagination-series",
+      sectionId: "series",
+    },
+    {
+      array: noticiasArray,
+      containerId: "noticias-container",
+      paginationId: "pagination-noticias",
+      sectionId: "noticias",
+    },
+  ];
   secciones.forEach((s) => {
     document.getElementById(s.sectionId).style.display = "block";
-    if (s.sectionId === "comunidadgl") {
-      renderComunidad(s.array, s.containerId, s.paginationId);
+    if (s.sectionId === "noticias") {
+      renderNoticias(noticiasArray, s.containerId, s.paginationId, 6);
     } else {
-      renderSection(s.array, s.containerId, s.paginationId);
+      renderSection(s.array, s.containerId, s.paginationId, 20);
     }
   });
 }
