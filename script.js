@@ -809,6 +809,16 @@ const seriesArray = [
   },
 
   {
+    id: "fromliarintolover",
+    img: "/img/series/From-Liar-into-Lover-(2025).jpg",
+    titulo: "From Liar into Lover (2025)",
+    genero: "Romance",
+    sinopsis:
+      "New, una gerente estricta, choca con BB, heredera secreta de la empresa. Entre conflictos y secretos, surge un amor inesperado.",
+    playlist: "PLhsCXKbbbsR3EbFTQl9zefYZXpeyLXf9X",
+  },
+
+  {
     id: "hiddenhalf",
     img: "/img/series/Hidden-Half-(2025).jpg",
     titulo: "Hidden Half (2025)",
@@ -2026,6 +2036,16 @@ const seriesArray = [
   },
 
   {
+    id: "outofbreath",
+    img: "/img/series/Out-of-Breath.jpg",
+    titulo: "Out of Breath (2019)",
+    genero: "Romance/Drama",
+    sinopsis:
+      "Tras una ruptura, Ha Eun conoce a Min Seo en una app de citas. Juntas cumplen sueños pendientes, pero ¿logrará olvidar a su ex?",
+    videos: ["DUGblEoORXI"],
+  },
+
+  {
     id: "shockmegirls",
     titulo: "Shock Me Girls (2026)",
     img: "/img/series/Shock-Me-Girls-(2026).jpg",
@@ -2445,7 +2465,7 @@ const shipsArray = [
     slug: "graceoaey-gl-ship",
     nombres: "Budsarin Wonglelanont y Ponchanok Teerawan",
     pais: "Tailandia 🇹🇭",
-    estado: "❌ Ship finalizado · Tailandia 🇹🇭",
+    estado: "❌ Ship finalizado",
     img: "/img/ships/Grace Oaey.jpg",
     instagram: [
       { nombre: "Grace", url: "https://www.instagram.com/gracebudsarin" },
@@ -2570,6 +2590,10 @@ const shipsArray = [
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
     img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    instagram: [
+      { nombre: "Anda", url: "https://www.instagram.com/anda_anunta" },
+      { nombre: "Lookkaew", url: "https://www.instagram.com/lookkaeww_k" },
+    ],
 
     series: ["Love Senior (2023) ", "Remain (2026), próximamente"],
     descripcion:
