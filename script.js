@@ -739,6 +739,16 @@ const seriesArray = [
   },
 
   {
+    id: "tasteofher",
+    img: "/img/series/Taste-of-Her-(2025).jpg",
+    titulo: "Taste of Her (2025)",
+    genero: "Romance/Thriller",
+    sinopsis:
+      "Una antigua profecía une a un humano recién llegado a los veinte años y a un vampiro. ¿Podrá el amor desafiar su destino?",
+    videos: ["BPRDPOeUU48"],
+  },
+
+  {
     id: "isthislove?",
     img: "/img/series/is-this-love.jpg",
     titulo: "Is This Love? (2025)",
@@ -1164,6 +1174,16 @@ const seriesArray = [
     genero: "Drama/Romance",
     sinopsis: "",
     videos: ["UHfgmfD64Zg", "THNlUQ4NIPU", "0fDLWSvnY1g", "91BCOXKz4W8"],
+  },
+
+  {
+    id: "thesevenwishes",
+    img: "/img/series/The-Seven-Wishes (2024).jpg",
+    titulo: "The Seven Wishes (2024)",
+    genero: "Romance",
+    sinopsis:
+      "Tras perder a su madre, Rada encuentra consuelo en la doctora Ice. Entre siete deseos y el duelo, nace un inesperado amor.",
+    videos: ["7wzmfMxTwBU"],
   },
 
   {
