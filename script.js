@@ -2809,7 +2809,12 @@ function buscar() {
       }
       if (!primerResultado) primerResultado = seccionEl;
     } else {
-      seccionEl.style.display = "none";
+      seccionEl.style.display = "block";
+      if (s.sectionId === "noticias") {
+        renderNoticias(noticiasArray, s.containerId, s.paginationId, 6);
+      } else {
+        renderSection(s.array, s.containerId, s.paginationId);
+      }
     }
   });
   if (primerResultado) {
