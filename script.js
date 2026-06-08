@@ -2175,16 +2175,6 @@ const microficcionArray = [
   { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
   { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
   { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
   { id: "micro2", videoId: "ID_VIDEO", esShort: true },
 ];
 
@@ -2348,7 +2338,7 @@ const shipsArray = [
     nombres: "View Benyapa Janpeng & Mim Rattanawadee",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "/img/ships/ViewMim.png",
+    img: "/img/ships/ViewMim.jpg",
     instagram: [
       { nombre: "View", url: "https://www.instagram.com/view.benyapa/" },
       { nombre: "Mim", url: "https://www.instagram.com/mim.rattanawadee" },
@@ -2422,7 +2412,7 @@ const shipsArray = [
     nombres: "Lilly Ladapa Thongkham y Belle Jiratchaya Kittavornsakul",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/LillyBelle.jpg",
     instagram: [
       { nombre: "Belle", url: "https://www.instagram.com/bellejirat" },
       { nombre: "Lilly", url: "https://www.instagram.com/lilly_nicha" },
@@ -2440,7 +2430,7 @@ const shipsArray = [
     nombres: "Lena Lorena Schuett & Miu Natsha Taechamongkalapiwat",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/LenaMiu.jpg",
     instagram: [
       { nombre: "Lena", url: "https://www.instagram.com/lalinalena" },
       { nombre: "Miu", url: "https://www.instagram.com/mmiunatshaa" },
@@ -2455,8 +2445,8 @@ const shipsArray = [
     slug: "graceoaey-gl-ship",
     nombres: "Budsarin Wonglelanont y Ponchanok Teerawan",
     pais: "Tailandia 🇹🇭",
-    estado: "⚠️ Por confirmar · Tailandia 🇹🇭",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    estado: "❌ Ship finalizado · Tailandia 🇹🇭",
+    img: "/img/ships/Grace Oaey.jpg",
     instagram: [
       { nombre: "Grace", url: "https://www.instagram.com/gracebudsarin" },
       { nombre: "Oaey", url: "https://www.instagram.com/oaey.ponchanok" },
@@ -2471,7 +2461,7 @@ const shipsArray = [
     nombres: "Kunyaphat Na Nakorn & Yada Watcharamusik",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/FayMay.jpg",
     instagram: [
       { nombre: "Fay", url: "https://www.instagram.com/fay_riezz" },
       { nombre: "May", url: "https://www.instagram.com/maywyda" },
