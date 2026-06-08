@@ -602,6 +602,27 @@ const seriesArray = [
   },
 
   {
+    id: "nowitsmyturn",
+    img: "/img/series/Now-Its-My-Turn-(2025).jpg",
+    titulo: "Now It’s My Turn (2025)",
+    genero: "Romance",
+    sinopsis:
+      "Tras años persiguiendo a Napdao, Fight se aleja. Ahora Napdao deberá luchar por el amor que dejó escapar.",
+    videos: [
+      "pWwxYRwbam4",
+      "roRLUrIQg-M",
+      "vca8bsRAP5U",
+      "viOHG1A9YQ4",
+      "kKHmnOZ0PSU",
+      "1d9vbVTYyy0",
+      "T_HtS6Pzao4",
+      "lFN46JsAy_4",
+      "7guLR-_MG1w",
+      "7IR05IPNF2s",
+    ],
+  },
+
+  {
     id: "somewheresomehow",
     img: "/img/series/Somewhere-Somehow.jpg",
     titulo: "Somewhere Somehow (2025)",
