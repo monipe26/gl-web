@@ -809,16 +809,6 @@ const seriesArray = [
   },
 
   {
-    id: "fromliarintolover",
-    img: "/img/series/From-Liar-into-Lover-(2025).jpg",
-    titulo: "From Liar into Lover (2025)",
-    genero: "Romance",
-    sinopsis:
-      "New, una gerente estricta, choca con BB, heredera secreta de la empresa. Entre conflictos y secretos, surge un amor inesperado.",
-    playlist: "PLhsCXKbbbsR3EbFTQl9zefYZXpeyLXf9X",
-  },
-
-  {
     id: "hiddenhalf",
     img: "/img/series/Hidden-Half-(2025).jpg",
     titulo: "Hidden Half (2025)",
@@ -2788,6 +2778,22 @@ function buscar() {
     limpiar();
     return;
   }
+
+  const secciones = [
+    {
+      array: seriesArray,
+      containerId: "series-container",
+      paginationId: "pagination-series",
+      sectionId: "series",
+    },
+    {
+      array: noticiasArray,
+      containerId: "noticias-container",
+      paginationId: "pagination-noticias",
+      sectionId: "noticias",
+    },
+  ];
+
   let primerResultado = null;
   secciones.forEach((s) => {
     const filtrado = s.array.filter((item) =>
@@ -2796,8 +2802,8 @@ function buscar() {
     const seccionEl = document.getElementById(s.sectionId);
     if (filtrado.length > 0) {
       seccionEl.style.display = "block";
-      if (s.sectionId === "comunidadgl") {
-        renderComunidad(filtrado, s.containerId, s.paginationId);
+      if (s.sectionId === "noticias") {
+        renderNoticias(filtrado, s.containerId, s.paginationId, 6);
       } else {
         renderSection(filtrado, s.containerId, s.paginationId);
       }
