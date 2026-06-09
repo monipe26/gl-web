@@ -146,7 +146,13 @@ const seriesArray = [
     genero: "Romance/Drama",
     sinopsis:
       "Shen Fang, una joven apasionada, reencuentra a Ku Ching Shui y juntas enfrentan conflictos, amor y presión social para sanar su pasado.",
-    videos: ["Q2NlhgGtx9Q", "yUp9pg6QcnA", "UXVmiQfDj88", "oZW9P1ajX1M"],
+    videos: [
+      "Q2NlhgGtx9Q",
+      "yUp9pg6QcnA",
+      "UXVmiQfDj88",
+      "oZW9P1ajX1M",
+      "PqMUqrofZqc",
+    ],
   },
 
   {
@@ -3663,8 +3669,10 @@ renderComunidad(
 );
 renderComunidad(ostsArray, "osts-container", "pagination-osts", 8, "ostsgl");
 // Fix scroll al inicio en móvil
-window.scrollTo(0, 0);
-setTimeout(() => window.scrollTo(0, 0), 300);
+if (!window.location.hash) {
+  window.scrollTo(0, 0);
+  setTimeout(() => window.scrollTo(0, 0), 300);
+}
 
 // =====================
 // MENÚ HAMBURGUESA
