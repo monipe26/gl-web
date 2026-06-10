@@ -75,7 +75,7 @@ const seriesArray = [
     genero: "Romance",
     sinopsis:
       "Claire debe fingir escenas románticas con la escritora Eris. Lo que empieza como investigación podría convertirse en amor real",
-    videos: ["DH6b3St6DVU"],
+    videos: ["DH6b3St6DVU", "7HbO2qF4B_8"],
   },
 
   {
@@ -85,7 +85,13 @@ const seriesArray = [
     genero: "Romance",
     sinopsis:
       "Time, autora bestseller de “10 reglas antes de enamorarme”, cree que el amor es lógica. En una estancia rural conoce a Lean, su crítico. Choque entre razón y sentimientos.",
-    videos: ["oFLZi9WDWWk", "HpRFBUDjuf0", "SidizzkfnAg", "XvafSa0b3xA"],
+    videos: [
+      "oFLZi9WDWWk",
+      "HpRFBUDjuf0",
+      "SidizzkfnAg",
+      "XvafSa0b3xA",
+      "0i-zd5fo-4g",
+    ],
   },
 
   {
@@ -116,6 +122,10 @@ const seriesArray = [
       "tP2TZqtIems",
       "Y-mhXV1deeU",
       "5mH9ZWhjUEk",
+      "m7N0L1C0nig",
+      "ATRCtanIhHA",
+      "iFxDKFwY7VA",
+      "3ZHajg945oQ",
     ],
   },
 
@@ -1250,6 +1260,25 @@ const seriesArray = [
   },
 
   {
+    id: "feartofreedom",
+    img: "/img/series/Fear_to_Freedom (2024).jpg",
+    titulo: "Fear to Freedom (2024)",
+    genero: "Romance",
+    sinopsis:
+      "Feem y Fangkao compiten por un proyecto rural. Entre conflictos, miedos ocultos y apoyo mutuo, descubren el amor y la libertad.",
+    videos: [
+      "pNEGgvXohiY",
+      "F5XKA6eY80w",
+      "idIXgXgXrgE",
+      "U3U6R7hH4Hs",
+      "fbSfE4tWnMI",
+      "D-dqtAd7Ubc",
+      "V3Yppvwi8U8",
+      "AqVJL1OSUfo",
+    ],
+  },
+
+  {
     id: "thesecretofus",
     img: "/img/series/The_Secret_of_Us_(2024).jpg",
     titulo: "The Secret of Us (2024)",
@@ -2223,7 +2252,7 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
-  { id: "micro1", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro1", videoId: "Q5ozQWmvnew", esShort: true },
   { id: "micro1", videoId: "ID_VIDEO", esShort: true },
   { id: "micro2", videoId: "ID_VIDEO", esShort: true },
 ];
