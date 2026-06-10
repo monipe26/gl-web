@@ -190,8 +190,8 @@ OVERLAY NETFLIX
 /* HERO / REPRODUCTOR */
 /* ===================== */
 .hero {
-  width: 90%;
-  max-width: 1000px;
+  width: 95%;
+  max-width: 1080px;
   margin: 15px auto;
   border-radius: 16px;
   overflow: hidden;
@@ -622,7 +622,7 @@ OVERLAY NETFLIX
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin: 18px 0 30px;
+  margin: 18px 0 0px;
   font-family: "Poppins", sans-serif;
 }
 
