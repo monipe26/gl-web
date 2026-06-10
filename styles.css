@@ -190,8 +190,8 @@ OVERLAY NETFLIX
 /* HERO / REPRODUCTOR */
 /* ===================== */
 .hero {
-  width: 85%;
-  max-width: 850px;
+  width: 90%;
+  max-width: 1000px;
   margin: 15px auto;
   border-radius: 16px;
   overflow: hidden;
