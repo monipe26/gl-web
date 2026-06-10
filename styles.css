@@ -627,7 +627,7 @@ OVERLAY NETFLIX
 }
 
 .player-controls button {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 79, 216, 0.45);
   color: #fff;
   border: none;
   padding: 8px 14px;
