@@ -398,6 +398,25 @@ const seriesArray = [
   },
 
   {
+    id: "shockmegirls",
+    titulo: "Shock Me Girls (2026)",
+    img: "/img/series/Shock-Me-Girls-(2026).jpg",
+    genero: "Romance/comedia",
+    tiktoks: [
+      "7611863842435468561",
+      "7611920930880720145",
+      "7614422254922829063",
+      "7614522043094256917",
+      "7617082284331617556",
+      "7617436912004893960",
+      "7619688849639263508",
+      "7619985526858337552",
+      "7624799542168308993",
+      "7624984138382167297",
+    ],
+  },
+
+  {
     id: "clairebell",
     img: "/img/series/clairebell.jpg",
     titulo: "Clairebell (2025)",
@@ -2110,25 +2129,6 @@ const seriesArray = [
       "Tras una ruptura, Ha Eun conoce a Min Seo en una app de citas. Juntas cumplen sueños pendientes, pero ¿logrará olvidar a su ex?",
     videos: ["DUGblEoORXI"],
   },
-
-  {
-    id: "shockmegirls",
-    titulo: "Shock Me Girls (2026)",
-    img: "/img/series/Shock-Me-Girls-(2026).jpg",
-    genero: "Romance/comedia",
-    tiktoks: [
-      "7611863842435468561",
-      "7611920930880720145",
-      "7614422254922829063",
-      "7614522043094256917",
-      "7617082284331617556",
-      "7617436912004893960",
-      "7619688849639263508",
-      "7619985526858337552",
-      "7624799542168308993",
-      "7624984138382167297",
-    ],
-  },
 ];
 
 // =====================
@@ -2360,6 +2360,22 @@ const shipsArray = [
   },
 
   {
+    ship: "FayeAtom",
+    slug: "fayeatom-gl-ship",
+    nombres: "Peraya Malisorn & Pariya Piyapanopas",
+    pais: "Tailandia 🇹🇭",
+    estado: "✅ Vigente",
+    img: "/img/ships/FayeAtom.jpg",
+    instagram: [
+      { nombre: "Faye", url: "https://www.instagram.com/faye" },
+      { nombre: "Atom", url: "https://www.instagram.com/atomprys" },
+    ],
+    series: ["Broken of Love (2026)"],
+    descripcion:
+      "Faye es actriz, exreina de belleza Miss Grand Thailand 2016 y fundadora de Fabel Entertainment. Atom es cantante y ex integrante del grupo idol VIIS. Su primera serie juntas es Broken of Love (2026), donde Faye interpreta a una mujer marcada por la venganza que se enamora de la hija de su enemigo, papel de Atom.",
+  },
+
+  {
     ship: "MilkLove",
     slug: "milklove-gl-ship",
     nombres: "Pansa Vosbein & Pattranite Limpatiyakorn",
@@ -2548,21 +2564,6 @@ const shipsArray = [
     series: ["My Marvellous Dream Is You (2025)", "Somewhere Somehow (2025)"],
     descripcion:
       "Fay y May debutaron juntas en My Marvellous Dream Is You (2024), donde sus personajes se ven la una en los sueños de la otra. Regresaron en Somewhere Somehow (2025), donde son ex novias del colegio que se reencuentran como jefa y empleada. Tras salir de",
-  },
-  {
-    ship: "FayeAtom",
-    slug: "fayeatom-gl-ship",
-    nombres: "Peraya Malisorn & Pariya Piyapanopas",
-    pais: "Tailandia 🇹🇭",
-    estado: "✅ Vigente",
-    img: "/img/ships/FayeAtom.jpg",
-    instagram: [
-      { nombre: "Faye", url: "https://www.instagram.com/faye" },
-      { nombre: "Atom", url: "https://www.instagram.com/atomprys" },
-    ],
-    series: ["Broken of Love (2026)"],
-    descripcion:
-      "Faye es actriz, exreina de belleza Miss Grand Thailand 2016 y fundadora de Fabel Entertainment. Atom es cantante y ex integrante del grupo idol VIIS. Su primera serie juntas es Broken of Love (2026), donde Faye interpreta a una mujer marcada por la venganza que se enamora de la hija de su enemigo, papel de Atom.",
   },
 
   {
