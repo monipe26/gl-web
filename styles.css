@@ -235,7 +235,6 @@ OVERLAY NETFLIX
   border: none;
 }
 
-/* Hero cambia a vertical cuando hay TikTok */
 .hero.tiktok-active {
   aspect-ratio: 9 / 16;
   max-width: 340px;
@@ -270,23 +269,21 @@ OVERLAY NETFLIX
   .hero.short-active {
     aspect-ratio: unset;
     max-width: 100%;
-    height: 100vh;
+    height: 65vh;
     margin: 0;
     border-radius: 0;
     border: none;
   }
-}
-/* Hero cambia a vertical cuando hay Short */
-.hero.short-active {
-  aspect-ratio: 9 / 16;
-  max-width: 340px;
-}
 
-@media (max-width: 700px) {
-  .hero.short-active {
-    aspect-ratio: unset;
-    max-width: 100%;
-    height: 85vh;
+  .hero.short-active ~ .player-controls {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0 10px;
+  }
+
+  .hero.short-active ~ .player-controls button {
+    font-size: 12px;
+    padding: 6px 10px;
   }
 }
 
