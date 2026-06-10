@@ -627,7 +627,7 @@ OVERLAY NETFLIX
 }
 
 .player-controls button {
-  background: #ff1493;
+  background: #ff4fd8;
   color: #fff;
   border: none;
   padding: 8px 14px;
@@ -643,27 +643,18 @@ OVERLAY NETFLIX
 }
 
 .player-controls button:hover {
-  background: #ff1493;
+  background: #ff4fd8;
   transform: none;
 }
 
 .player-controls button:active {
-  background: #ff69b4 !important;
+  background: rgba(255, 79, 216, 0.6) !important;
   transform: none;
 }
 
 .player-controls button:focus {
-  background: #ff1493 !important;
+  background: #ff4fd8;
   outline: none;
-}
-
-.player-controls button:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: scale(1.05);
-}
-
-.player-controls button:active {
-  transform: scale(0.98);
 }
 
 #episodio-info {
