@@ -347,6 +347,22 @@ const seriesArray = [
   },
 
   {
+    id: "LeLaLesfluidlove",
+    img: "/img/series/LeLaLes-Fluid-Love-(2026).jpg",
+    titulo: "LeLaLes: Fluid Love (2026)",
+    genero: "Romance",
+    sinopsis:
+      "Un innovador reality de citas para mujeres queer chinas. Ocho mujeres, una villa en Chiang Mai y emociones auténticas sin guion.",
+    videos: [
+      "5g8uyCTGb0U",
+      "1Mhkel-dHuM",
+      "IBBu9kphVJ0",
+      "33IwA7qUOa0",
+      "OJjxWrIL_os",
+    ],
+  },
+
+  {
     id: "Fruit",
     img: "/img/series/Fruit-(2026).jpg",
     titulo: "Fruit (2026)",
@@ -2252,7 +2268,7 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
-  { id: "micro1", videoId: "Q5ozQWmvnew", esShort: true },
+  { id: "micro1", videoId: "Q5ozQWmvnewF-Nbm3qOx8o", esShort: true },
   { id: "micro1", videoId: "ID_VIDEO", esShort: true },
   { id: "micro2", videoId: "ID_VIDEO", esShort: true },
 ];
