@@ -2108,10 +2108,11 @@ const seriesArray = [
 // =====================
 
 const comunidadArray = [
+  { id: "c1", videoId: "0GALf9zof5E" },
   { id: "c1", videoId: "KHuJlLHJGPY" },
-  { id: "c1", videoId: "MEu9JBMic3w" },
-
+  { id: "c1", videoId: "ZZfk7QDx_kU" },
   { id: "c1", videoId: "NBA7TbOdxR8" },
+  { id: "c1", videoId: "MEu9JBMic3w" },
   { id: "c1", videoId: "WH6czV5oeW4" },
   { id: "c1", videoId: "nkwwTjPt2Lc" },
   { id: "c1", videoId: "_cXUI8Jtjn4" },
@@ -2222,16 +2223,8 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
-  { id: "micro1", videoId: "-GjmKXaG6zs", esShort: true },
+  { id: "micro1", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro1", videoId: "ID_VIDEO", esShort: true },
   { id: "micro2", videoId: "ID_VIDEO", esShort: true },
 ];
 
@@ -2533,7 +2526,7 @@ const shipsArray = [
     nombres: "Peraya Malisorn & Pariya Piyapanopas",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/FayeAtom.jpg",
     instagram: [
       { nombre: "Faye", url: "https://www.instagram.com/faye" },
       { nombre: "Atom", url: "https://www.instagram.com/atomprys" },
@@ -2549,7 +2542,7 @@ const shipsArray = [
     nombres: "Enjoy Thidarut & June Nannirin",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/EnjoyJune.jpg",
     instagram: [
       { nombre: "Enjoy", url: "https://www.instagram.com/enjoyyotdr" },
       { nombre: "June", url: "https://www.instagram.com/june_nannirin" },
@@ -2564,7 +2557,7 @@ const shipsArray = [
     nombres: "Thasorn Klinnium & Pattraphus Borattasuwan",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/EnjoyJune.jpg",
     instagram: [
       { nombre: "Emi", url: "https://www.instagram.com/emiamily" },
       { nombre: "Bonnie", url: "https://www.instagram.com/beonnnie" },
@@ -2580,7 +2573,7 @@ const shipsArray = [
     nombres: "Gulasatree Michalsky & Methakarn Anektanasuwan",
     pais: "Tailandia 🇹🇭",
     estado: "❌ Ship finalizado",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/ChristineMae.jpg",
     instagram: [
       { nombre: "Christine", url: "https://www.instagram.com/gulasatree" },
       { nombre: "Mae", url: "https://www.instagram.com/maetk" },
@@ -2596,7 +2589,7 @@ const shipsArray = [
     nombres: "Mable Siriwalee Siriwibool & Pangjie Paphavarin Sawasdiwech",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/BleJi.jpg",
     instagram: [
       { nombre: "Mable", url: "https://www.instagram.com/mable_siriwalee" },
       { nombre: "Pangjie", url: "https://www.instagram.com/pangjiewr" },
@@ -2611,7 +2604,7 @@ const shipsArray = [
     nombres: "Aphichaya Kamnoetsirikun & Siripath Sarakune",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/AtomMer.jpg",
     instagram: [
       { nombre: "Atom", url: "https://www.instagram.com/atomapcy_" },
       { nombre: "Mersedes", url: "https://www.instagram.com/mmersedes" },
@@ -2626,7 +2619,7 @@ const shipsArray = [
     nombres: "Anunta Teaviratt & Kamollak Sangsubsin",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png",
+    img: "/img/ships/AndaLookkaew.jpg",
     instagram: [
       { nombre: "Anda", url: "https://www.instagram.com/anda_anunta" },
       { nombre: "Lookkaew", url: "https://www.instagram.com/lookkaeww_k" },
