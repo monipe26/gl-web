@@ -627,7 +627,7 @@ OVERLAY NETFLIX
 }
 
 .player-controls button {
-  background: rgba(255, 20, 147, 0.5);
+  background: #ff1493;
   color: #fff;
   border: none;
   padding: 8px 14px;
@@ -640,6 +640,21 @@ OVERLAY NETFLIX
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.player-controls button:hover {
+  background: #ff1493;
+  transform: none;
+}
+
+.player-controls button:active {
+  background: #ff69b4 !important;
+  transform: none;
+}
+
+.player-controls button:focus {
+  background: #ff1493 !important;
+  outline: none;
 }
 
 .player-controls button:hover {
