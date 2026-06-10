@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/" />
+    <title>Ships GL - Girls Love Play 💕</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Las parejas GL asiáticas que nos robaron el corazón. Ships tailandeses, series juntas e información de cada dupla."
+    />
+    <meta
+      name="keywords"
+      content="ships GL, parejas GL, FreenBecky, LingOrm, ships tailandeses, girls love ships"
+    />
+    <meta name="author" content="Girls Love Play" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content="Ships GL - Girls Love Play 💕" />
+    <meta
+      property="og:description"
+      content="Las parejas GL asiáticas que nos robaron el corazón."
+    />
+    <meta
+      property="og:image"
+      content="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="ships-gl.css" />
+  </head>
+  <body>
+    <div id="inicio"></div>
+
+    <header class="header">
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <div class="logo-container">
+        <a href="/"
+          ><img
+            src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+            class="logo"
+        /></a>
+      </div>
+      <nav class="nav">
+        <a href="/">Inicio</a>
+        <a href="/#series">Series GL</a>
+        <a href="/#noticias">Noticias GL</a>
+        <a href="ships-gl.html" style="color: #ff4fd8">💕 Ships GL</a>
+        <a href="/#microficcion">Shorts GL</a>
+        <a href="/#ostsgl">OSTs GL</a>
+        <a href="/#comunidadgl">Comunidad GL</a>
+      </nav>
+      <div class="search-box">
+        <input
+          type="text"
+          id="buscador-ships"
+          placeholder="Buscar ship..."
+          onkeyup="filtrarShips()"
+          autocomplete="off"
+        />
+        <button onclick="limpiarShips()">✕</button>
+      </div>
+    </header>
+
+    <!-- HERO SHIPS -->
+    <div style="text-align: center; padding: 40px 20px 20px">
+      <h1
+        style="
+          font-size: 2rem;
+          background: linear-gradient(90deg, #ff4fd8, #8f5cff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin: 0;
+        "
+      >
+        💕 Ships GL
+      </h1>
+      <p style="color: #ccc; font-size: 14px; margin-top: 8px">
+        Las parejas que nos robaron el corazón
+      </p>
+    </div>
+
+    <!-- FILTROS -->
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 0 20px 20px;
+      "
+    >
+      <button class="filtro-btn active" onclick="filtrarEstado('todos', this)">
+        Todos
+      </button>
+      <button class="filtro-btn" onclick="filtrarEstado('vigente', this)">
+        ✅ Vigentes
+      </button>
+      <button class="filtro-btn" onclick="filtrarEstado('finalizado', this)">
+        ❌ Finalizados
+      </button>
+    </div>
+
+    <!-- SHIPS CONTAINER -->
+    <section class="section">
+      <div id="ships-container"></div>
+      <div class="pagination-wrapper">
+        <div class="pagination" id="pagination-ships"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <img
+            src="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
+            alt="logo"
+          />
+          <p>Tu espacio GL favorito 💖</p>
+        </div>
+        <div class="footer-links">
+          <h4>Explorar</h4>
+          <a href="/">Inicio</a>
+          <a href="/#series">Series GL</a>
+          <a href="/#noticias">Noticias GL</a>
+          <a href="ships-gl.html">💕 Ships GL</a>
+          <a href="/#microficcion">Shorts GL</a>
+          <a href="/#ostsgl">OSTs GL</a>
+          <a href="/#comunidadgl">Comunidad GL</a>
+          <a href="sobre-nosotras.html">Sobre Nosotras 💖</a>
+        </div>
+        <div class="footer-legal">
+          <h4>Legal</h4>
+          <p>
+            Este sitio no almacena videos ni archivos propios. Todo el contenido
+            proviene de fuentes externas.
+          </p>
+          <p>Los derechos pertenecen a sus respectivos autores.</p>
+          <a href="avisolegal.html" class="footer-links-item">Aviso Legal</a>
+          <a href="privacidad.html" class="footer-links-item"
+            >Política de Privacidad</a
+          >
+          <a href="cookies.html" class="footer-links-item"
+            >Política de Cookies</a
+          >
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>Email: info.girlsloveplay@gmail.com</p>
+          <a href="TU-LINK-PAYPAL" target="_blank" class="donate-btn"
+            >💖 Apoyar proyecto</a
+          >
+          <div class="footer-socials">
+            <a
+              href="https://www.facebook.com/girlsloveplayoficial/"
+              target="_blank"
+            >
+              <img
+                src="https://i.postimg.cc/yNCH6MKJ/facebook.png"
+                alt="Facebook"
+              />
+            </a>
+            <a href="https://www.instagram.com/girlslove.play" target="_blank">
+              <img
+                src="https://i.postimg.cc/NFKs2Rz5/instagram.png"
+                alt="Instagram"
+              />
+            </a>
+            <a href="https://www.youtube.com/@GirlsLovePlay" target="_blank">
+              <img
+                src="https://i.postimg.cc/X7yNVcF6/youtube.png"
+                alt="Youtube"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Girls Love - Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- MODAL SHIPS -->
+    <div
+      class="modal-overlay"
+      id="modal-ships"
+      onclick="cerrarModalShip(event)"
+    >
+      <div class="modal-box">
+        <button class="modal-cerrar" onclick="cerrarModalShip()">✕</button>
+        <img class="modal-img" id="ship-modal-img" src="" alt="" />
+        <p class="modal-fecha" id="ship-modal-ship"></p>
+        <p class="modal-titulo" id="ship-modal-nombres"></p>
+        <div id="ship-modal-body"></div>
+        <button
+          class="modal-subir"
+          onclick="document.querySelector('#modal-ships .modal-box').scrollTop=0"
+        >
+          ⬆
+        </button>
+      </div>
+    </div>
+
+    <button
+      onclick="window.scrollTo({top:0, behavior:'smooth'})"
+      id="btn-arriba"
+    >
+      ⬆
+    </button>
+
+    <script>
+      // =====================
+      // MENÚ HAMBURGUESA
+      // =====================
+      function toggleMenu() {
+        document.querySelector(".nav").classList.toggle("active");
+      }
+
+      function limpiarShips() {
+        document.getElementById("buscador-ships").value = "";
+        shipsFiltrados = [...shipsArray];
+        renderShips(shipsFiltrados, "ships-container", "pagination-ships", 9);
+      }
+
+      function filtrarShips() {
+        const q = document.getElementById("buscador-ships").value.toLowerCase();
+        shipsFiltrados = shipsArray.filter(
+          (s) =>
+            s.ship.toLowerCase().includes(q) ||
+            s.nombres.toLowerCase().includes(q) ||
+            s.series.some((x) => x.toLowerCase().includes(q))
+        );
+        renderShips(shipsFiltrados, "ships-container", "pagination-ships", 9);
+      }
+
+      function filtrarEstado(estado, btn) {
+        document
+          .querySelectorAll(".filtro-btn")
+          .forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        if (estado === "todos") {
+          shipsFiltrados = [...shipsArray];
+        } else if (estado === "vigente") {
+          shipsFiltrados = shipsArray.filter((s) => s.estado.includes("✅"));
+        } else {
+          shipsFiltrados = shipsArray.filter((s) => s.estado.includes("❌"));
+        }
+        renderShips(shipsFiltrados, "ships-container", "pagination-ships", 9);
+      }
+
+      // =====================
+      // DATOS SHIPS
+      // =====================
+      const shipsArray = [
+        {
+          ship: "FreenBecky",
+          slug: "freenbecky-gl-ship",
+          nombres: "Sarocha Chankimha & Rebecca Patricia Armstrong",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/freenbecky.jpg",
+          instagram: [
+            { nombre: "Freen", url: "https://www.instagram.com/srchafreen" },
+            { nombre: "Becky", url: "https://www.instagram.com/beccca" },
+          ],
+          series: [
+            "GAP: The Series (2022)",
+            "The Loyal Pin (2024)",
+            "Uranus 2324 (2024)",
+            "4 Elements: The Air (2026)",
+          ],
+          descripcion:
+            "Una de las parejas GL más icónicas del mundo. Freen y Becky se conocieron trabajando juntas y su química en pantalla conquistó a millones de fans globales. GAP: The Series acumuló más de 900 millones de vistas en YouTube.",
+        },
+        {
+          ship: "LMSY",
+          slug: "lmsy-gl-ship",
+          nombres: "Lookmhee Punyapat y Sonya Saranphat",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/LMSY.jpg",
+          instagram: [
+            { nombre: "Lookmhee", url: "https://www.instagram.com/lmlookmhee" },
+            { nombre: "Sonya", url: "https://www.instagram.com/sonyasarann" },
+          ],
+          series: [
+            "Affair (2024)",
+            "Harmony Secret (2025)",
+            "Hometown Romance (2026)",
+          ],
+          descripcion:
+            "Lookmhee y Sonya debutaron juntas en Affair (2024) y rápidamente se convirtieron en una de las parejas GL más queridas de Tailandia. Su segunda serie Harmony Secret (2025) las catapultó a nivel internacional. En 2026 regresan con Hometown Romance.",
+        },
+        {
+          ship: "LingOrm",
+          slug: "lingorm-gl-ship",
+          nombres: "Sirilak 'Lingling' Kwong & Kornnaphat Sethratanapong",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/lingorm1.jpg",
+          instagram: [
+            { nombre: "Ling", url: "https://www.instagram.com/linglingkwong/" },
+            { nombre: "Orm", url: "https://www.instagram.com/orm.kornnaphat/" },
+          ],
+          series: [
+            "The Secret of Us (2024)",
+            "Only You (2025)",
+            "In Love Forever (2026), próximamente",
+          ],
+          descripcion:
+            "LingOrm debutó con The Secret of Us, el primer GL en horario prime de Channel 3. Su química natural y las historias maduras que protagonizan las convirtieron en un fenómeno global.",
+        },
+        {
+          ship: "Englot",
+          slug: "englot-gl-ship",
+          nombres: "Engfa Waraha & Charlotte Austin",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/englot.jpg",
+          instagram: [
+            { nombre: "Engfa", url: "https://www.instagram.com/fa_engfa8" },
+            {
+              nombre: "Charlotte",
+              url: "https://www.instagram.com/itscharlotty",
+            },
+          ],
+          series: [
+            "Show Me Love (2023)",
+            "Love Bully (2024)",
+            "Petrichor (2024)",
+            "Unlimited Love (2025)",
+            "4 Elements: The Water (2026)",
+          ],
+          descripcion:
+            "Engfa es actriz y exreina de belleza, Charlotte es actriz tailandesa-occidental. Juntas forman una de las parejas GL más estéticas del medio. Son embajadoras de Dior y participan en el mega proyecto 4 Elements.",
+        },
+        {
+          ship: "FayeAtom",
+          slug: "fayeatom-gl-ship",
+          nombres: "Peraya Malisorn & Pariya Piyapanopas",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/FayeAtom.jpg",
+          instagram: [
+            { nombre: "Faye", url: "https://www.instagram.com/faye" },
+            { nombre: "Atom", url: "https://www.instagram.com/atomprys" },
+          ],
+          series: ["Broken of Love (2026)"],
+          descripcion:
+            "Faye es actriz, exreina de belleza Miss Grand Thailand 2016 y fundadora de Fabel Entertainment. Atom es cantante y ex integrante del grupo idol VIIS. Su primera serie juntas es Broken of Love (2026).",
+        },
+        {
+          ship: "MilkLove",
+          slug: "milklove-gl-ship",
+          nombres: "Pansa Vosbein & Pattranite Limpatiyakorn",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/MilkLove.jpg",
+          instagram: [
+            { nombre: "Milk", url: "https://www.instagram.com/panly.v" },
+            { nombre: "Love", url: "https://www.instagram.com/loverrukk" },
+          ],
+          series: [
+            "23.5 (2024)",
+            "Whale Store xoxo (2025)",
+            "Girl Rules (2026)",
+            "Ditto (2026), próximamente",
+          ],
+          descripcion:
+            "Milk y Love comenzaron como pareja secundaria en un BL y se convirtieron en las primeras GL leads de GMMTV con 23.5, que debutó simultáneamente en Netflix.",
+        },
+        {
+          ship: "NamtanFilm",
+          slug: "namtanfilm-gl-ship",
+          nombres: "Tipnaree Weerawatnodom & Rachanun Mahawan",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/NamtanFilm.jpg",
+          instagram: [
+            {
+              nombre: "Namtan",
+              url: "https://www.instagram.com/namtan.tipnaree/",
+            },
+            { nombre: "Film", url: "https://www.instagram.com/fr.racha/" },
+          ],
+          series: [
+            "Pluto (2024)",
+            "Girl Rules (2026)",
+            "Her (2026), próximamente",
+          ],
+          descripcion:
+            "Namtan es una de las actrices más reconocidas de GMMTV con una larga trayectoria. Film Rachanun es su contraparte GL. Juntas protagonizan la historia de Prim y Freen en Girl Rules.",
+        },
+        {
+          ship: "AppleMim",
+          slug: "applemim-gl-ship",
+          nombres: "Apple Narisa & Mimu Rattanawadee",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/AppleMim.jpg",
+          instagram: [
+            { nombre: "Apple", url: "https://www.instagram.com/applelapisara" },
+            { nombre: "Mim", url: "https://www.instagram.com/mimu.p" },
+          ],
+          series: ["4 Elements: The Earth (2026)"],
+          descripcion:
+            "Como protagonistas del arco de Tierra en 4 Elements, Apple y Mimu representan una de las nuevas apuestas GL de GMMTV.",
+        },
+        {
+          ship: "ViewMim",
+          slug: "viewmim-gl-ship",
+          nombres: "View Benyapa Janpeng & Mim Rattanawadee",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/ViewMim.jpg",
+          instagram: [
+            { nombre: "View", url: "https://www.instagram.com/view.benyapa/" },
+            {
+              nombre: "Mim",
+              url: "https://www.instagram.com/mim.rattanawadee",
+            },
+          ],
+          series: [
+            "Us (2025)",
+            "Girl Rules (2026)",
+            "Bake Love Feelings (2026), próximamente",
+          ],
+          descripcion:
+            "View y Mim debutaron en Us (2025) y en Girl Rules (2026) como pareja GL protagonista. Pronto regresan como protagonistas en Bake Love Feelings.",
+        },
+        {
+          ship: "ShellyPundao",
+          slug: "shellypundao-gl-ship",
+          nombres: "Shelly & Pundao",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/ShellyPundao.jpg",
+          instagram: [
+            { nombre: "Shelly", url: "https://www.instagram.com/shellybenda" },
+            { nombre: "Pundao", url: "https://www.instagram.com/_pundao" },
+          ],
+          series: ["Rollercoaster (2025)", "By Your Side (2026), próximamente"],
+          descripcion:
+            "Shelly y Pundao debutaron como pareja GL en Rollercoaster (2025) y rápidamente ganaron fans por su química natural. En 2026 regresan juntas con By Your Side.",
+        },
+        {
+          ship: "OrmFolk",
+          slug: "ormfolk-gl-ship",
+          nombres: "Ormsin Supitcha Limsommut & Folk Sutima Korkiatvanich",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/OrmFolk.jpg",
+          instagram: [
+            { nombre: "Ormsin", url: "https://www.instagram.com/omeormorm" },
+            { nombre: "Folk", url: "https://www.instagram.com/ffolky" },
+          ],
+          series: [
+            "Apple My Love (2024)",
+            "Your Apple (2025)",
+            "Love Bound (2026) — próximamente",
+            "Crush (2026) — próximamente",
+          ],
+          descripcion:
+            "OrmFolk es la pareja detrás de Apple My Love, un GL donde Kris recupera la visión y reconoce a Karn como la mujer que veía en sus sueños.",
+        },
+        {
+          ship: "NoonPraewa",
+          slug: "noonpraewa-gl-ship",
+          nombres: "Nuttawan Teerapratan y Prawrawee Kitiworrakarn",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/NoonPraewa.jpg",
+          instagram: [
+            { nombre: "Noon", url: "" },
+            { nombre: "Praewa", url: "https://www.instagram.com/praewa.era" },
+          ],
+          series: [
+            "Love Senior (2023)",
+            "Flirt Milk (2025)",
+            "Hidden Heart (2026) — próximamente",
+          ],
+          descripcion:
+            "Noon y Praewa se conocieron como pareja secundaria en Love Senior (2023). Su popularidad llevó a que les dieran su primera oportunidad como pareja GL protagonista en Hidden Heart.",
+        },
+        {
+          ship: "LillyBelle",
+          slug: "lillybelle-gl-ship",
+          nombres: "Lilly Ladapa Thongkham y Belle Jiratchaya Kittavornsakul",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/LillyBelle.jpg",
+          instagram: [
+            { nombre: "Belle", url: "https://www.instagram.com/bellejirat" },
+            { nombre: "Lilly", url: "https://www.instagram.com/lilly_nicha" },
+          ],
+          series: [
+            "Harmony Secret (2025) — pareja secundaria",
+            "I Wanna Be Sup'tar (2026)",
+          ],
+          descripcion:
+            "Lilly y Belle debutaron juntas como pareja secundaria en Harmony Secret (2025) y conquistaron al fandom. En 2026 protagonizan I Wanna Be Sup'tar.",
+        },
+        {
+          ship: "LenaMiu",
+          slug: "lenamiu-gl-ship",
+          nombres: "Lena Lorena Schuett & Miu Natsha Taechamongkalapiwat",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/LenaMiu.jpg",
+          instagram: [
+            { nombre: "Lena", url: "https://www.instagram.com/lalinalena" },
+            { nombre: "Miu", url: "https://www.instagram.com/mmiunatshaa" },
+          ],
+          series: ["My Safe Zone (2025)", "Pls. Love (2026)"],
+          descripcion:
+            "Lena y Miu son la segunda pareja GL de Channel 3 tras LingOrm. En My Safe Zone interpretan a Alin y Jane, dos amigas en una zona de amistad que empieza a tambalearse.",
+        },
+        {
+          ship: "GraceOaey",
+          slug: "graceoaey-gl-ship",
+          nombres: "Budsarin Wonglelanont y Ponchanok Teerawan",
+          pais: "Tailandia 🇹🇭",
+          estado: "❌ Ship finalizado",
+          img: "/img/ships/Grace Oaey.jpg",
+          instagram: [
+            { nombre: "Grace", url: "https://www.instagram.com/gracebudsarin" },
+            { nombre: "Oaey", url: "https://www.instagram.com/oaey.ponchanok" },
+          ],
+          series: ["Mate The Series (2024)"],
+          descripcion:
+            "Grace y Oaey se conocieron en Mate The Series (2024). En diciembre 2025 confirmaron el fin de sus actividades conjuntas bajo NEZT Media.",
+        },
+        {
+          ship: "FayMay",
+          slug: "faymay-gl-ship",
+          nombres: "Kunyaphat Na Nakorn & Yada Watcharamusik",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/FayMay.jpg",
+          instagram: [
+            { nombre: "Fay", url: "https://www.instagram.com/fay_riezz" },
+            { nombre: "May", url: "https://www.instagram.com/maywyda" },
+          ],
+          series: [
+            "My Marvellous Dream Is You (2025)",
+            "Somewhere Somehow (2025)",
+          ],
+          descripcion:
+            "Fay y May debutaron juntas en My Marvellous Dream Is You y regresaron en Somewhere Somehow (2025), donde son ex novias del colegio que se reencuentran como jefa y empleada.",
+        },
+        {
+          ship: "EnjoyJune",
+          slug: "enjoyjune-gl-ship",
+          nombres: "Enjoy Thidarut & June Nannirin",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/EnjoyJune.jpg",
+          instagram: [
+            { nombre: "Enjoy", url: "https://www.instagram.com/enjoyyotdr" },
+            { nombre: "June", url: "https://www.instagram.com/june_nannirin" },
+          ],
+          series: ["Denied Love (2025)"],
+          descripcion:
+            "Enjoy y June debutaron juntas en Denied Love (2025), una historia de trauma emocional y amor prohibido que conquistó al fandom GL internacional.",
+        },
+        {
+          ship: "EmiBonnie",
+          slug: "emibonnie-gl-ship",
+          nombres: "Thasorn Klinnium & Pattraphus Borattasuwan",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/EmiBonnie.jpg",
+          instagram: [
+            { nombre: "Emi", url: "https://www.instagram.com/emiamily" },
+            { nombre: "Bonnie", url: "https://www.instagram.com/beonnnie" },
+          ],
+          series: ["Us (2025)", "Moonshadow (2026)"],
+          descripcion:
+            "Emi y Bonnie debutaron en Us (2025). En 2026 debutaron como dúo musical EMIBONNIE y regresan a pantalla con Moonshadow.",
+        },
+        {
+          ship: "ChristineMae",
+          slug: "christinemae-gl-ship",
+          nombres: "Gulasatree Michalsky & Methakarn Anektanasuwan",
+          pais: "Tailandia 🇹🇭",
+          estado: "❌ Ship finalizado",
+          img: "/img/ships/ChristineMae.jpg",
+          instagram: [
+            {
+              nombre: "Christine",
+              url: "https://www.instagram.com/gulasatree",
+            },
+            { nombre: "Mae", url: "https://www.instagram.com/maetk" },
+          ],
+          series: ["Reverse 4 You (2024)"],
+          descripcion:
+            "Christine y Mae protagonizaron Reverse 4 You (2024), disponible en Netflix. Ambas han dejado Kantana Motion Pictures y están trabajando en proyectos separados.",
+        },
+        {
+          ship: "BleJi",
+          slug: "bleji-gl-ship",
+          nombres:
+            "Mable Siriwalee Siriwibool & Pangjie Paphavarin Sawasdiwech",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/BleJi.jpg",
+          instagram: [
+            {
+              nombre: "Mable",
+              url: "https://www.instagram.com/mable_siriwalee",
+            },
+            { nombre: "Pangjie", url: "https://www.instagram.com/pangjiewr" },
+          ],
+          series: ["ClaireBell (2025)"],
+          descripcion:
+            "Mable y Pangjie protagonizan ClaireBell (2025), un GL de prisión con 9.2/10 en IMDb. Su química intensa las convirtió en una de las parejas más comentadas del año.",
+        },
+        {
+          ship: "AtomMer",
+          slug: "atomMer-gl-ship",
+          nombres: "Aphichaya Kamnoetsirikun & Siripath Sarakune",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/AtomMer.jpg",
+          instagram: [
+            { nombre: "Atom", url: "https://www.instagram.com/atomapcy_" },
+            { nombre: "Mersedes", url: "https://www.instagram.com/mmersedes" },
+          ],
+          series: ["My Only Sunshine (2026)"],
+          descripcion:
+            "Atom y Mersedes protagonizan My Only Sunshine (2026), una de las series GL más esperadas del año bajo Star Hunter Entertainment.",
+        },
+        {
+          ship: "AndaLookkaew",
+          slug: "andalookkaew-gl-ship",
+          nombres: "Anunta Teaviratt & Kamollak Sangsubsin",
+          pais: "Tailandia 🇹🇭",
+          estado: "✅ Vigente",
+          img: "/img/ships/AndaLookkaew.jpg",
+          instagram: [
+            { nombre: "Anda", url: "https://www.instagram.com/anda_anunta" },
+            {
+              nombre: "Lookkaew",
+              url: "https://www.instagram.com/lookkaeww_k",
+            },
+          ],
+          series: ["Love Senior (2023)", "Remain (2026), próximamente"],
+          descripcion:
+            "Anda y Lookkaew son integrantes del grupo idol COSMOS. Debutaron como pareja GL en Love Senior (2023) y regresan juntas en Remain (2026).",
+        },
+      ];
+
+      let shipsFiltrados = [...shipsArray];
+
+      // =====================
+      // RENDER SHIPS
+      // =====================
+      function renderShips(array, containerId, paginationId, perPage = 9) {
+        let page = 1;
+        const container = document.getElementById(containerId);
+        const pagination = document.getElementById(paginationId);
+
+        function render() {
+          container.innerHTML = "";
+          const start = (page - 1) * perPage;
+          const end = start + perPage;
+
+          array.slice(start, end).forEach((item) => {
+            const div = document.createElement("div");
+            div.className = "noticia-card";
+            div.style.cursor = "pointer";
+            div.onclick = () => abrirShip(item);
+
+            const seriesTexto =
+              item.series.slice(0, 2).join(", ") +
+              (item.series.length > 2 ? "..." : "");
+            const estadoColor = item.estado.includes("✅")
+              ? "#6eefaa"
+              : item.estado.includes("❌")
+              ? "#ff6b6b"
+              : "#ffd966";
+
+            div.innerHTML = `
+            <div class="noticia-img">
+              <img loading="lazy" src="${item.img}" alt="Ship ${item.ship}">
+            </div>
+            <div class="noticia-info">
+              <p class="noticia-fecha" style="color:${estadoColor}">${item.estado} · ${item.pais}</p>
+              <p class="noticia-titulo">${item.ship}</p>
+              <p class="noticia-texto">${item.nombres}</p>
+              <p class="noticia-texto" style="color:#9d8fcc;margin-top:4px">🎬 ${seriesTexto}</p>
+            </div>
+          `;
+            container.appendChild(div);
+          });
+
+          pagination.innerHTML = "";
+          const total = Math.ceil(array.length / perPage);
+          for (let i = 1; i <= total; i++) {
+            const b = document.createElement("button");
+            b.textContent = i;
+            if (i === page) b.classList.add("active");
+            b.onclick = () => {
+              page = i;
+              render();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            };
+            pagination.appendChild(b);
+          }
+        }
+        render();
+      }
+
+      // =====================
+      // ABRIR SHIP MODAL
+      // =====================
+      function abrirShip(item) {
+        history.pushState({}, "", "/ship/" + item.slug);
+        document.title = item.ship + " - Ship GL | Girls Love Play";
+
+        const seriesHTML = item.series
+          .map(
+            (s) =>
+              `<span style="display:inline-block;background:rgba(143,92,255,0.18);border:1px solid rgba(143,92,255,0.3);color:#c4aeff;font-size:11px;padding:3px 10px;border-radius:10px;margin:3px 2px">🎬 ${s}</span>`
+          )
+          .join("");
+        const instaHTML = item.instagram
+          ? item.instagram
+              .map(
+                (i) =>
+                  `<a href="${i.url}" target="_blank" style="display:inline-flex;align-items:center;gap:6px;background:linear-gradient(135deg,#833ab4,#fd1d1d,#fcb045);color:white;font-size:12px;font-weight:700;padding:6px 14px;border-radius:20px;text-decoration:none;margin:3px 2px">📸 ${i.nombre}</a>`
+              )
+              .join("")
+          : "";
+        const estadoColor = item.estado.includes("✅")
+          ? "#6eefaa"
+          : item.estado.includes("❌")
+          ? "#ff6b6b"
+          : "#ffd966";
+
+        document.getElementById("ship-modal-img").src = item.img;
+        document.getElementById("ship-modal-img").alt = "Ship " + item.ship;
+        document.getElementById(
+          "ship-modal-ship"
+        ).innerHTML = `<span style="color:${estadoColor}">${item.estado}</span> &nbsp;·&nbsp; ${item.pais}`;
+        document.getElementById("ship-modal-nombres").textContent =
+          item.nombres;
+        document.getElementById("ship-modal-body").innerHTML = `
+        <p class="modal-texto" style="margin-top:12px;line-height:1.8">${
+          item.descripcion
+        }</p>
+        <p style="margin-top:16px;color:#ff4fd8;font-weight:700;font-size:12px;letter-spacing:1px">🎬 SERIES JUNTAS</p>
+        <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:4px">${seriesHTML}</div>
+        ${
+          instaHTML
+            ? `<p style="margin-top:16px;color:#ff4fd8;font-weight:700;font-size:12px;letter-spacing:1px">📸 INSTAGRAM</p><div style="margin-top:8px">${instaHTML}</div>`
+            : ""
+        }
+      `;
+
+        document.getElementById("modal-ships").classList.add("active");
+        document.body.style.overflow = "hidden";
+      }
+
+      function cerrarModalShip(e) {
+        if (e && e.target !== document.getElementById("modal-ships")) return;
+        document.getElementById("modal-ships").classList.remove("active");
+        document.body.style.overflow = "";
+        history.pushState({}, "", "/ships-gl.html");
+        document.title = "Ships GL - Girls Love Play 💕";
+      }
+
+      // Iniciar
+      renderShips(shipsFiltrados, "ships-container", "pagination-ships", 9);
+    </script>
+
+    <style>
+      .filtro-btn {
+        padding: 8px 18px;
+        border: 1px solid rgba(255, 79, 216, 0.4);
+        border-radius: 20px;
+        background: transparent;
+        color: #ccc;
+        cursor: pointer;
+        font-size: 13px;
+        transition: all 0.2s;
+      }
+      .filtro-btn:hover,
+      .filtro-btn.active {
+        background: #ff4fd8;
+        color: white;
+        border-color: #ff4fd8;
+      }
+
+      #ships-container {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      @media (max-width: 900px) {
+        #ships-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media (max-width: 480px) {
+        #ships-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      #ships-container .noticia-img {
+        aspect-ratio: 2/1;
+        position: relative;
+      }
+      #ships-container .noticia-img::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          to top,
+          rgba(15, 10, 30, 0.6) 0%,
+          transparent 65%
+        );
+        pointer-events: none;
+      }
+    </style>
+  </body>
+</html>

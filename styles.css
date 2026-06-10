@@ -1083,3 +1083,8 @@ OVERLAY NETFLIX
 .footer-links-item:hover {
   color: #ff4fd8;
 }
+
+/* OCULTAR SHIPS DE PÁGINA PRINCIPAL */
+#shipsgl {
+  display: none;
+}
