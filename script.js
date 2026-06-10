@@ -2557,7 +2557,7 @@ const shipsArray = [
     nombres: "Thasorn Klinnium & Pattraphus Borattasuwan",
     pais: "Tailandia 🇹🇭",
     estado: "✅ Vigente",
-    img: "/img/ships/EnjoyJune.jpg",
+    img: "/img/ships/EmiBonnie.jpg",
     instagram: [
       { nombre: "Emi", url: "https://www.instagram.com/emiamily" },
       { nombre: "Bonnie", url: "https://www.instagram.com/beonnnie" },
