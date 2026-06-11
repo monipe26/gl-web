@@ -15,7 +15,6 @@
     />
     <meta name="author" content="Girls Love Play" />
     <meta name="robots" content="index, follow" />
-
     <meta property="og:title" content="Próximamente GL - Girls Love Play 🎬" />
     <meta
       property="og:description"
@@ -26,7 +25,6 @@
       content="https://i.postimg.cc/Wpr7mGbq/Logo-brillante-de-Girls-Love-PLAY-3.png"
     />
     <meta property="og:type" content="website" />
-
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -48,11 +46,8 @@
         <a href="ships-gl.html">💕 Ships GL</a>
         <a href="/#microficcion">Shorts GL</a>
         <a href="/#ostsgl">OSTs GL</a>
-        
-        <a href="proximamente-gl.html" style="color: #ff4fd8"
-          >🎬 Próximamente</a
-          <a href="/#comunidadgl">Comunidad GL</a>
-        >
+        <a href="proximamente-gl.html">🎬 Próximamente</a>
+        <a href="/#comunidadgl">Comunidad GL</a>
       </nav>
       <div class="search-box">
         <input type="text" placeholder="Buscar..." autocomplete="off" />
@@ -93,7 +88,7 @@
 
     <!-- TRAILERS GRID -->
     <div class="section" id="proximamente">
-      <h2>🎬 Próximamente GL</h2>
+      <h2 style="color: #ff4fd8">🎬 Próximamente GL</h2>
       <p class="subtitulo">Trailers y avances de las series que vienen</p>
       <div id="proximamente-container"></div>
       <div class="pagination-wrapper">
@@ -119,9 +114,9 @@
           <a href="ships-gl.html">💕 Ships GL</a>
           <a href="/#microficcion">Shorts GL</a>
           <a href="/#ostsgl">OSTs GL</a>
+
           <a href="proximamente-gl.html">🎬 Próximamente</a>
           <a href="/#comunidadgl">Comunidad GL</a>
-      
           <a href="sobre-nosotras.html">Sobre Nosotras 💖</a>
         </div>
         <div class="footer-legal">
@@ -183,36 +178,30 @@
     </button>
 
     <script>
-      // MENÚ
       function toggleMenu() {
         document.querySelector(".nav").classList.toggle("active");
       }
 
-      // =====================
-      // DATOS TRAILERS
-      // =====================
       const proximamenteArray = [
-        { id: "p1", videoId: "0GALf9zof5E" },
-        { id: "p2", videoId: "KHuJlLHJGPY" },
-        { id: "p3", videoId: "ZZfk7QDx_kU" },
-        { id: "p4", videoId: "NBA7TbOdxR8" },
-        { id: "p5", videoId: "MEu9JBMic3w" },
-        { id: "p6", videoId: "WH6czV5oeW4" },
-        { id: "p7", videoId: "nkwwTjPt2Lc" },
-        { id: "p8", videoId: "_cXUI8Jtjn4" },
-        { id: "p9", videoId: "STVqrStyr6I" },
-        { id: "p10", videoId: "rqHYlB51-oo" },
+        { id: "p1", videoId: "iflgdLZf_BU" },
+        { id: "p1", videoId: "0UzWBBSS3js" },
+        { id: "p2", videoId: "DBfacLBfsrA" },
+        { id: "p3", videoId: "wfEgXrB5Xuo" },
+        { id: "p4", videoId: "II86VoZ6v3A" },
+        { id: "p5", videoId: "30LfbsWHCW4" },
+        { id: "p6", videoId: "NFFWV0X4i_c" },
+        { id: "p7", videoId: "rBI6-QLkgOI" },
+        { id: "p8", videoId: "Mrm0Ej8e_Yw" },
+        { id: "p9", videoId: "R0ny7lQSr2k" },
+        { id: "p10", videoId: "OXfExloO350" },
+        { id: "p11", videoId: "LMKBoo8bvaw" },
+        { id: "p12", videoId: "QNvnpjbNrRg" },
+        { id: "p12", videoId: "gniuiRNJh10" },
       ];
 
-      // =====================
-      // REPRODUCTOR
-      // =====================
       let playerProx = null;
-      let ytReady = false;
 
       function onYouTubeIframeAPIReady() {
-        ytReady = true;
-        // Carga el primer trailer automáticamente
         cargarTrailer(proximamenteArray[0]);
       }
 
@@ -220,13 +209,12 @@
         document.getElementById("episodio-info-prox").textContent =
           "Cargando...";
         window.scrollTo({ top: 0, behavior: "smooth" });
-
         if (playerProx && typeof playerProx.loadVideoById === "function") {
           playerProx.loadVideoById(item.videoId);
         } else {
           playerProx = new YT.Player("player-prox", {
             videoId: item.videoId,
-            playerVars: { autoplay: 1, rel: 0, modestbranding: 1 },
+            playerVars: { autoplay: 1, rel: 0, modestbranding: 1, mute: 1 },
             events: {
               onReady: (e) => {
                 e.target.playVideo();
@@ -238,9 +226,6 @@
         }
       }
 
-      // =====================
-      // CACHE TÍTULOS
-      // =====================
       const titleCache = {};
 
       async function fetchTitle(videoId, div) {
@@ -251,12 +236,10 @@
           if (canalEl) canalEl.textContent = titleCache[videoId].author;
           return;
         }
-
         const urls = [
           `https://noembed.com/embed?url=https://www.youtube.com/watch?v=${videoId}`,
           `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${videoId}&format=json`,
         ];
-
         for (const url of urls) {
           try {
             const r = await fetch(url);
@@ -274,19 +257,15 @@
             return;
           } catch (_) {}
         }
-
         const tituloEl = div.querySelector(".com-titulo");
         if (tituloEl) tituloEl.textContent = "▶ Ver trailer";
       }
 
-      // =====================
-      // RENDER GRID
-      // =====================
       function renderProximamente(
         array,
         containerId,
         paginationId,
-        perPage = 6
+        perPage = 8
       ) {
         let page = 1;
         const container = document.getElementById(containerId);
@@ -303,26 +282,24 @@
             const div = document.createElement("div");
             div.className = "com-card";
             div.onclick = () => cargarTrailer(item);
-
             const cached = titleCache[item.videoId];
-
             div.innerHTML = `
-            <div class="com-thumb">
-              <img src="https://img.youtube.com/vi/${
-                item.videoId
-              }/maxresdefault.jpg" alt="" loading="lazy">
-              <div class="com-play">▶</div>
-            </div>
-            <div class="com-info">
-              <p class="com-titulo">${cached ? cached.title : "Cargando..."}</p>
-              <span class="com-canal">${cached ? cached.author : ""}</span>
-            </div>
-          `;
+              <div class="com-thumb">
+                <img src="https://img.youtube.com/vi/${
+                  item.videoId
+                }/maxresdefault.jpg" alt="" loading="lazy">
+                <div class="com-play">▶</div>
+              </div>
+              <div class="com-info">
+                <p class="com-titulo">${
+                  cached ? cached.title : "Cargando..."
+                }</p>
+                <span class="com-canal">${cached ? cached.author : ""}</span>
+              </div>
+            `;
             container.appendChild(div);
-
-            if (!cached) {
+            if (!cached)
               setTimeout(() => fetchTitle(item.videoId, div), i * 100);
-            }
           }
 
           pagination.innerHTML = "";
@@ -346,19 +323,16 @@
             pagination.appendChild(b);
           }
         }
-
         render();
       }
 
-      // Iniciar grid
       renderProximamente(
         proximamenteArray,
         "proximamente-container",
         "pagination-proximamente",
-        6
+        12
       );
 
-      // Cargar API YouTube
       const tag = document.createElement("script");
       tag.src = "https://www.youtube.com/iframe_api";
       document.head.appendChild(tag);
@@ -386,8 +360,20 @@
       }
       #proximamente-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         gap: 14px;
+      }
+      #proximamente-container .com-card {
+        width: 100%;
+        min-width: 0;
+      }
+      #proximamente-container .com-thumb {
+        height: 140px;
+      }
+      @media (max-width: 900px) {
+        #proximamente-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
       }
       @media (max-width: 700px) {
         #proximamente-container {
