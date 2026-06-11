@@ -1087,4 +1087,9 @@ OVERLAY NETFLIX
 /* OCULTAR SHIPS DE PÁGINA PRINCIPAL */
 #shipsgl {
   display: none;
+  padding: 0;
+  margin: 0;
+}
+#modal-ships {
+  display: none !important;
 }
