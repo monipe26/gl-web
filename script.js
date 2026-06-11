@@ -2268,9 +2268,12 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
-  { id: "micro1", videoId: "F-Nbm3qOx8o", esShort: true },
-  { id: "micro1", videoId: "ID_VIDEO", esShort: true },
   { id: "micro2", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
+  { id: "micro1", videoId: "MaCuR49C5Tc", esShort: true },
+  { id: "micro1", videoId: "F-Nbm3qOx8o", esShort: true },
 ];
 
 // =====================
