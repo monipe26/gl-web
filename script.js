@@ -2297,14 +2297,26 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
-  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
-  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
-  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
-  { id: "micro2", videoId: "ID_VIDEO", esShort: true },
-  { id: "micro1", videoId: "MaCuR49C5Tc", esShort: true },
-  { id: "micro1", videoId: "F-Nbm3qOx8o", esShort: true },
-];
+  {
+    id: "micro1",
+    videoId: "MaCuR49C5Tc",
+    esShort: true,
+    videos: ["MaCuR49C5Tc"],
+  },
+  {
+    id: "micro2",
+    videoId: "F-Nbm3qOx8o",
+    esShort: true,
+    videos: ["F-Nbm3qOx8o"],
+  },
 
+  {
+    id: "micro3",
+    videoId: "PRIMER_ID",
+    esShort: true,
+    videos: ["PRIMER_ID", "SEGUNDO_ID", "TERCER_ID"],
+  },
+];
 // =====================
 // TIENDA GL
 // =====================
