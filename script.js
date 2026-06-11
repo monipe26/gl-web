@@ -175,6 +175,25 @@ const seriesArray = [
   },
 
   {
+    id: "vampireunnie ",
+    img: "/img/series/vampire-unnie-2026.jpg",
+    titulo: "Vampire Unnie (2026)",
+    genero: "Fantasia/Sobrenatural",
+    sinopsis:
+      "Una mujer encuentra en la calle a una vampira herida y decide cuidarla.",
+    videos: [
+      "MA_xJNMeZ7Y",
+      "bgmEtxikOJU",
+      "-dbLy_Z_lcU",
+      "hu68Ju9Y26g",
+      "cpbsL0oxA0g",
+      "-AebPBc6QLw",
+      "JkI3GGSLnNs",
+      "E5HsIoInpFo",
+    ],
+  },
+
+  {
     id: "brokenoflove",
     img: "/img/series/Broken-of-Love-(2026).jpg",
     titulo: "Broken of Love (2026)",
@@ -915,6 +934,16 @@ const seriesArray = [
       "ON7YjSs1Kpk",
       "3OytYyXfG2M",
     ],
+  },
+
+  {
+    id: "lovereturns",
+    img: "/img/series/Love-Returns-(2025).jpg",
+    titulo: "Love Returns (2025)",
+    genero: "Romance/Drama",
+    sinopsis:
+      "La Dra. Por ama sinceramente a Fong y la ayuda a sanar tras una dolorosa ruptura. Pero cuando la ex de Fong reaparece, sus sentimientos vuelven a confundirse.",
+    videos: ["iuCCF1Wd4XY"],
   },
 
   {

@@ -50,8 +50,14 @@
         <a href="/#comunidadgl">Comunidad GL</a>
       </nav>
       <div class="search-box">
-        <input type="text" placeholder="Buscar..." autocomplete="off" />
-        <button>✕</button>
+        <input
+          type="text"
+          id="buscador-prox"
+          placeholder="Buscar trailer..."
+          onkeyup="filtrarProximamente()"
+          autocomplete="off"
+        />
+        <button onclick="limpiarProximamente()">✕</button>
       </div>
     </header>
 
@@ -183,28 +189,28 @@
       }
 
       const proximamenteArray = [
-        { id: "p1", videoId: "58A5Ayezj-0" },
-        { id: "p1", videoId: "HBi2dQGsuJw" },
-        { id: "p1", videoId: "3fOkgCnjv5M" },
-        { id: "p1", videoId: "jAQ-I2HmJ8I" },
-        { id: "p1", videoId: "iflgdLZf_BU" },
-        { id: "p1", videoId: "sY15eXJcRMU" },
-        { id: "p1", videoId: "0UzWBBSS3js" },
-        { id: "p2", videoId: "DBfacLBfsrA" },
-        { id: "p3", videoId: "wfEgXrB5Xuo" },
-        { id: "p4", videoId: "II86VoZ6v3A" },
-        { id: "p5", videoId: "30LfbsWHCW4" },
-        { id: "p6", videoId: "NFFWV0X4i_c" },
-        { id: "p7", videoId: "rBI6-QLkgOI" },
-        { id: "p8", videoId: "Mrm0Ej8e_Yw" },
-        { id: "p9", videoId: "R0ny7lQSr2k" },
-        { id: "p1", videoId: "BsfJX88YUoU" },
-        { id: "p10", videoId: "OXfExloO350" },
-        { id: "p11", videoId: "LMKBoo8bvaw" },
-        { id: "p12", videoId: "QNvnpjbNrRg" },
-        { id: "p12", videoId: "gniuiRNJh10" },
-        { id: "p1", videoId: "5Tt9brsEoaA" },
-        { id: "p12", videoId: "JxYvq9q3kso" },
+        { id: "p22", videoId: "58A5Ayezj-0" },
+        { id: "p21", videoId: "HBi2dQGsuJw" },
+        { id: "p20", videoId: "3fOkgCnjv5M" },
+        { id: "p19", videoId: "jAQ-I2HmJ8I" },
+        { id: "p18", videoId: "iflgdLZf_BU" },
+        { id: "p17", videoId: "sY15eXJcRMU" },
+        { id: "p16", videoId: "0UzWBBSS3js" },
+        { id: "p15", videoId: "DBfacLBfsrA" },
+        { id: "p14", videoId: "wfEgXrB5Xuo" },
+        { id: "p13", videoId: "II86VoZ6v3A" },
+        { id: "p12", videoId: "30LfbsWHCW4" },
+        { id: "p11", videoId: "NFFWV0X4i_c" },
+        { id: "p10", videoId: "rBI6-QLkgOI" },
+        { id: "p9", videoId: "Mrm0Ej8e_Yw" },
+        { id: "p8", videoId: "R0ny7lQSr2k" },
+        { id: "p7", videoId: "BsfJX88YUoU" },
+        { id: "p6", videoId: "OXfExloO350" },
+        { id: "p5", videoId: "LMKBoo8bvaw" },
+        { id: "p4", videoId: "QNvnpjbNrRg" },
+        { id: "p3", videoId: "gniuiRNJh10" },
+        { id: "p2", videoId: "5Tt9brsEoaA" },
+        { id: "p1", videoId: "JxYvq9q3kso" },
       ];
 
       let playerProx = null;
@@ -292,19 +298,17 @@
             div.onclick = () => cargarTrailer(item);
             const cached = titleCache[item.videoId];
             div.innerHTML = `
-              <div class="com-thumb">
-                <img src="https://img.youtube.com/vi/${
-                  item.videoId
-                }/maxresdefault.jpg" alt="" loading="lazy">
-                <div class="com-play">▶</div>
-              </div>
-              <div class="com-info">
-                <p class="com-titulo">${
-                  cached ? cached.title : "Cargando..."
-                }</p>
-                <span class="com-canal">${cached ? cached.author : ""}</span>
-              </div>
-            `;
+        <div class="com-thumb">
+          <img src="https://img.youtube.com/vi/${
+            item.videoId
+          }/maxresdefault.jpg" alt="" loading="lazy">
+          <div class="com-play">▶</div>
+        </div>
+        <div class="com-info">
+          <p class="com-titulo">${cached ? cached.title : "Cargando..."}</p>
+          <span class="com-canal">${cached ? cached.author : ""}</span>
+        </div>
+      `;
             container.appendChild(div);
             if (!cached)
               setTimeout(() => fetchTitle(item.videoId, div), i * 100);
@@ -332,6 +336,37 @@
           }
         }
         render();
+      }
+
+      let proxFiltrados = [...proximamenteArray];
+
+      function filtrarProximamente() {
+        const q = document.getElementById("buscador-prox").value.toLowerCase();
+        proxFiltrados = proximamenteArray.filter((item) => {
+          const cached = titleCache[item.videoId];
+          if (!cached) return true;
+          return (
+            cached.title.toLowerCase().includes(q) ||
+            cached.author.toLowerCase().includes(q)
+          );
+        });
+        renderProximamente(
+          proxFiltrados,
+          "proximamente-container",
+          "pagination-proximamente",
+          12
+        );
+      }
+
+      function limpiarProximamente() {
+        document.getElementById("buscador-prox").value = "";
+        proxFiltrados = [...proximamenteArray];
+        renderProximamente(
+          proxFiltrados,
+          "proximamente-container",
+          "pagination-proximamente",
+          12
+        );
       }
 
       renderProximamente(
