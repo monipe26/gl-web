@@ -773,7 +773,12 @@
       }
 
       function cerrarModalShip(e) {
-        if (e && e.target !== document.getElementById("modal-ships")) return;
+        if (
+          e &&
+          e.type === "click" &&
+          e.target !== document.getElementById("modal-ships")
+        )
+          return;
         document.getElementById("modal-ships").classList.remove("active");
         document.body.style.overflow = "";
         history.pushState({}, "", "/ships-gl.html");
