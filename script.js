@@ -75,7 +75,7 @@ const seriesArray = [
     genero: "Romance",
     sinopsis:
       "Claire debe fingir escenas románticas con la escritora Eris. Lo que empieza como investigación podría convertirse en amor real",
-    videos: ["DH6b3St6DVU", "7HbO2qF4B_8"],
+    videos: ["DH6b3St6DVU", "7HbO2qF4B_8", "XYssHJKsh34"],
   },
 
   {
@@ -2317,19 +2317,15 @@ const ostsArray = [
 // 🎬 MICROFICCIÓN GL
 // =====================
 const microficcionArray = [
+  // Short individual
   {
-    id: "micro4",
+    id: "micro3",
     videoId: "kxO8_5xRHn0",
     esShort: true,
     videos: ["kxO8_5xRHn0"],
   },
 
-  {
-    id: "micro3",
-    videoId: "MaCuR49C5Tc",
-    esShort: true,
-    videos: ["MaCuR49C5Tc"],
-  },
+  // Short individual
   {
     id: "micro2",
     videoId: "F-Nbm3qOx8o",
@@ -2337,11 +2333,13 @@ const microficcionArray = [
     videos: ["F-Nbm3qOx8o"],
   },
 
+  // Microdrama por partes
   {
     id: "micro1",
-    videoId: "PRIMER_ID",
+    titulo: "❤️ Mini Drama GL: 5 Minutos de Mentira",
+    videoId: "MaCuR49C5Tc",
     esShort: true,
-    videos: ["PRIMER_ID", "SEGUNDO_ID", "TERCER_ID"],
+    videos: ["MaCuR49C5Tc", "cj4hcHsVWgE"],
   },
 ];
 // =====================
@@ -2876,10 +2874,6 @@ function cerrarModalShip(e) {
   history.pushState({}, "", "/");
   document.title = "Girls Love Play - Series GL Asiáticas en Español";
 }
-
-// =====================
-// NOTICIAS GL
-// =====================
 
 // =====================
 // 📰 NOTICIAS GL — cargadas desde JSON
@@ -3542,17 +3536,21 @@ function renderComunidad(
         <div class="com-thumb">
           <img src="https://img.youtube.com/vi/${
             item.videoId
-          }/maxresdefault.jpg" alt="" loading="lazy">
+          }/hqdefault.jpg" alt="" loading="lazy">
           <div class="com-play">▶</div>
         </div>
         <div class="com-info">
-          <p class="com-titulo">${cached ? cached.title : "Cargando..."}</p>
+          <p class="com-titulo">
+            ${item.titulo || (cached ? cached.title : "Cargando...")}
+          </p>
           <span class="com-canal">${cached ? cached.author : ""}</span>
         </div>
       `;
+
       container.appendChild(div);
 
-      if (!cached) {
+      // Solo busca el título automático si NO tiene título manual
+      if (!cached && !item.titulo) {
         setTimeout(() => fetchTitle(item.videoId, div), i * 100);
       }
     }
