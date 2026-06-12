@@ -18,7 +18,14 @@ body {
   overflow-x: hidden;
   font-family: "Segoe UI", "Poppins", Arial, sans-serif;
   color: white;
-  background: url("img/fondo.png") no-repeat center/cover;
+  background: linear-gradient(
+    135deg,
+    #1a0a2e 0%,
+    #2d1050 40%,
+    #1e0a35 70%,
+    #3d1060 100%
+  );
+  background-attachment: fixed;
 }
 
 /* =====================
