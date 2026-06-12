@@ -158,7 +158,13 @@ OVERLAY NETFLIX
   bottom: -5px;
   width: 0%;
   height: 2px;
-  background: linear-gradient(90deg, #ff4fd8, #8f5cff);
+  background: linear-gradient(
+    135deg,
+    #2d1040 0%,
+    #4a1060 40%,
+    #2d1040 70%,
+    #5a1570 100%
+  );
   transition: width 0.3s ease;
 }
 
