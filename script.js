@@ -995,6 +995,16 @@ const seriesArray = [
   },
 
   {
+    id: "deardiary",
+    img: "/img/series/Dear-Diary(2025).jpg",
+    titulo: "Dear Diary (2025)",
+    genero: "Romance",
+    sinopsis:
+      "Mai se enamora de su compañera de universidad, Mean. Tras graduarse, deberán superar obstáculos familiares, laborales y la distancia.",
+    videos: ["BE7TQGpQMCE"],
+  },
+
+  {
     id: "killerheart",
     img: "/img/series/Killer-Heart-(2025).jpg",
     titulo: "Killer Heart (2025)",
@@ -1109,6 +1119,16 @@ const seriesArray = [
     genero: "Drama/Romance",
     sinopsis: "",
     videos: ["VnnRSP4RsiI"],
+  },
+
+  {
+    id: "On&offseason2",
+    img: "/img/series/on-n-off-2.jpg",
+    titulo: "On & Off Season 2 (2025)",
+    genero: "Romance",
+    sinopsis:
+      "Dos amantes ocultan su relación en la oficina. Entre jerarquías y normas conservadoras, deberán elegir entre el amor y las apariencias.",
+    videos: ["EKgy5EM-Vhw"],
   },
 
   {
@@ -2298,7 +2318,14 @@ const ostsArray = [
 // =====================
 const microficcionArray = [
   {
-    id: "micro1",
+    id: "micro4",
+    videoId: "kxO8_5xRHn0",
+    esShort: true,
+    videos: ["kxO8_5xRHn0"],
+  },
+
+  {
+    id: "micro3",
     videoId: "MaCuR49C5Tc",
     esShort: true,
     videos: ["MaCuR49C5Tc"],
@@ -2311,7 +2338,7 @@ const microficcionArray = [
   },
 
   {
-    id: "micro3",
+    id: "micro1",
     videoId: "PRIMER_ID",
     esShort: true,
     videos: ["PRIMER_ID", "SEGUNDO_ID", "TERCER_ID"],
