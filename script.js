@@ -2337,6 +2337,7 @@ const microficcionArray = [
   {
     id: "micro1",
     titulo: "❤️ Mini Drama GL: 5 Minutos de Mentira",
+    canal: "Girls Love Play",
     videoId: "MaCuR49C5Tc",
     esShort: true,
     videos: ["MaCuR49C5Tc", "cj4hcHsVWgE"],
@@ -3543,7 +3544,9 @@ function renderComunidad(
           <p class="com-titulo">
             ${item.titulo || (cached ? cached.title : "Cargando...")}
           </p>
-          <span class="com-canal">${cached ? cached.author : ""}</span>
+          <span class="com-canal">
+          ${item.canal || (cached ? cached.author : "")}
+        </span>
         </div>
       `;
 
