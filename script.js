@@ -1015,12 +1015,12 @@ const seriesArray = [
   },
 
   {
-    id: "killerheart",
-    img: "/img/series/Killer-Heart-(2025).jpg",
-    titulo: "Killer Heart (2025)",
-    genero: "Romance",
+    id: "closeup",
+    img: "/img/series/Close Up (2025).jpg",
+    titulo: "Close Up (2025)",
+    genero: "Romance/Drama",
     sinopsis:
-      "Tras el asesinato de sus padres, Surprise es secuestrada. Alan, a quien ayudó antes, recibe la orden de matarla. ¿La salvará o cumplirá?",
+      "Una fotógrafa y una modelo inician una relación sin compromisos, pero los sentimientos y un misterioso tercero complican el acuerdo.",
     videos: ["qLojsGI26CQ"],
   },
 
