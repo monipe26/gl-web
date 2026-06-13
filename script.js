@@ -1021,7 +1021,7 @@ const seriesArray = [
     genero: "Romance/Drama",
     sinopsis:
       "Una fotógrafa y una modelo inician una relación sin compromisos, pero los sentimientos y un misterioso tercero complican el acuerdo.",
-    videos: ["qLojsGI26CQ"],
+    videos: ["R7WwZc7nNWk"],
   },
 
   {
