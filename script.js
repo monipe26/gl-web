@@ -423,6 +423,16 @@ const seriesArray = [
   },
 
   {
+    id: "On&OffSeason3",
+    img: "/img/series/On-&-Off-Season-3(2027).jpg",
+    titulo: "On & Off Season 3 (2026)",
+    genero: "Romance/Drama",
+    sinopsis:
+      "Una CEO exitosa enfrenta romances, desafíos empresariales y complejas relaciones personales junto a las mujeres que forman parte de su círculo más cercano.",
+    videos: ["hCIZIANZCsY"],
+  },
+
+  {
     id: "whyeventry",
     img: "/img/series/Why-t-xng-phyayam-(Why-Even-Try) (1).jpg",
     titulo: "Why Even Try (2026)",
@@ -2186,6 +2196,16 @@ const seriesArray = [
   },
 
   {
+    id: "sorrymyfriend",
+    img: "/img/series/Sorry-My-friend.jpg",
+    titulo: "Sorry My Friend (2020)",
+    genero: "Romance",
+    sinopsis:
+      "Dos mejores amigas ven cambiar su relación cuando surgen sentimientos románticos, enfrentando una dolorosa separación.",
+    videos: ["1C_q9XV5GUU", "e4Sreb8Cpw8"],
+  },
+
+  {
     id: "outofbreath",
     img: "/img/series/Out-of-Breath.jpg",
     titulo: "Out of Breath (2019)",
@@ -2203,12 +2223,12 @@ const seriesArray = [
 
 const comunidadArray = [
   { id: "c1", videoId: "0GALf9zof5E" },
-  { id: "c1", videoId: "KHuJlLHJGPY" },
+
   { id: "c1", videoId: "ZZfk7QDx_kU" },
   { id: "c1", videoId: "NBA7TbOdxR8" },
-  { id: "c1", videoId: "MEu9JBMic3w" },
-  { id: "c1", videoId: "WH6czV5oeW4" },
   { id: "c1", videoId: "nkwwTjPt2Lc" },
+  { id: "c1", videoId: "MEu9JBMic3w" },
+
   { id: "c1", videoId: "_cXUI8Jtjn4" },
   { id: "c1", videoId: "STVqrStyr6I" },
   { id: "c1", videoId: "rqHYlB51-oo" },
@@ -2340,7 +2360,7 @@ const microficcionArray = [
     canal: "Girls Love Play",
     videoId: "MaCuR49C5Tc",
     esShort: true,
-    videos: ["MaCuR49C5Tc", "cj4hcHsVWgE"],
+    videos: ["MaCuR49C5Tc", "cj4hcHsVWgE", "74CANIQkBY8"],
   },
 ];
 // =====================
